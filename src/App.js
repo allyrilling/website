@@ -14,12 +14,12 @@ function App() {
       <Router>
         <Navigation />
         <Switch>
-          <Route path="/home" exact component={() => <Home />} />
+          <Route path="/" exact component={() => <Home />} />
           <Route path="/appdevelopment" exact component={() => <AppDevelopment />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/privacypolicy" exact component={() => <PrivacyPolicy />} />
         </Switch>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
 
