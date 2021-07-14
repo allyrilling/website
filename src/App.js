@@ -16,7 +16,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/website" exact component={() => <Home />} />
-          <Route path="/home" exact component={() => <Home />} />
+          <Route path="/Home" exact component={() => <Home />} />
           <Route path="/appdevelopment" exact component={() => <AppDevelopment />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/privacypolicy" exact component={() => <PrivacyPolicy />} />
