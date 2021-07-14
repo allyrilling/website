@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="https://allyrilling.github.io/website/" >
         <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
