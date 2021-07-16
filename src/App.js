@@ -7,6 +7,7 @@ import AppDevelopment from "./components/AppDevelopment";
 import Navigation from "./components/Navigation";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" exact component={() => <Home />} />
             <Route path="/website" exact component={() => <Home />} />
             <Route path="/home" exact component={() => <Home />} />
+            <Route path="/resume" exact component={() => <Resume />} />
             <Route path="/appdevelopment" exact component={() => <AppDevelopment />} />
             <Route path="/about" exact component={() => <About />} />
             <Route path="/privacypolicy" exact component={() => <PrivacyPolicy />} />

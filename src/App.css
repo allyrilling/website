@@ -1,10 +1,43 @@
+.h1Header {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.h1Header2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 60px;
+}
+
 .h2Header {
+    margin-left: auto;
+    margin-right: auto;
     background-color: cadetblue;
     padding: 10px;
     border-radius: 15px;
 }
 
+.h2Header2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 .h3Header {
+    font-size: 25px;
+}
+
+.h3Header2 {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 25px;
 }
 
@@ -19,8 +52,20 @@
     border-radius: 15px;
 }
 
-.backgroundColor {
-    background-color: black;
+.wiscoRed {
+    color: red;
+}
+
+.uiOrange {
+    color: orange;
+}
+
+.frontEndPurple {
+    color: orchid;
+}
+
+.fintechGreen {
+    color: green;
 }
 
 .mePicture {
@@ -40,11 +85,15 @@
 
 .footerStyle {
     text-align: center;
+    background-color: #242424;
+    color: white;
 }
 
  #page-container {
     position: relative;
     min-height: 100vh;
+    background-color: #242424;
+    color: white;
   }
   
   #content-wrap {
@@ -62,11 +111,25 @@
     height: 3rem;            /* Footer height */
   }
 
-  .multicolortext {
-    font-size: 30px;
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple, red, orange, yellow, green, blue);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
+
+  .boxStyle {
+    border-radius: 15px;
+    background-color: cadetblue;
+    margin: 10px;
+    width: auto;
+  }
+
+  .resumeTitle {
+      font-size: 30px;
+      padding: 10px;
+  }
+
+  .resumeSubtitle {
+      font-size: 20px;
+      padding: 10px;
+  }
+
+  .resumeBody {
+      font-size: 15px;
+      padding: 10px;
   }
