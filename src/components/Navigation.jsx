@@ -6,7 +6,10 @@ function Navigation(props) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
         <Container>
-            <Navbar.Brand href="Home">Ally Rilling</Navbar.Brand>
+            <Navbar.Brand href="Home">
+              {/* <span class="multicolortext">Ally Rilling</span> */}
+              Ally Rilling
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">

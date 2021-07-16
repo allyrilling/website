@@ -39,7 +39,34 @@
 }
 
 .footerStyle {
-    padding: 10px;
+    text-align: center;
+}
+
+ #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 3rem;    /* Footer height */
+  }
+  
+  #footer {
+    padding: 40px;
     text-align: center;
     font-size: 15px;
-}
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;            /* Footer height */
+  }
+
+  .multicolortext {
+    font-size: 30px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple, red, orange, yellow, green, blue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }

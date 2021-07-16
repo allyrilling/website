@@ -10,18 +10,20 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Router basename="https://allyrilling.github.io/website/" >
-        <Navigation />
-        <Switch>
-          <Route path="/" exact component={() => <Home />} />
-          <Route path="/website" exact component={() => <Home />} />
-          <Route path="/home" exact component={() => <Home />} />
-          <Route path="/appdevelopment" exact component={() => <AppDevelopment />} />
-          <Route path="/about" exact component={() => <About />} />
-          <Route path="/privacypolicy" exact component={() => <PrivacyPolicy />} />
-        </Switch>
-        <Footer />
+    <div className="App" id="page-container">
+      <Router>
+        <div id="content-wrap">
+          <Navigation />
+          <Switch>
+            <Route path="/" exact component={() => <Home />} />
+            <Route path="/website" exact component={() => <Home />} />
+            <Route path="/home" exact component={() => <Home />} />
+            <Route path="/appdevelopment" exact component={() => <AppDevelopment />} />
+            <Route path="/about" exact component={() => <About />} />
+            <Route path="/privacypolicy" exact component={() => <PrivacyPolicy />} />
+          </Switch>
+        </div>
+        <div id="footer"> <Footer /> </div>
       </Router>
     </div>
 
