@@ -1,0 +1,43 @@
+.appTitle {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 45px;
+}
+
+.appSubtitle {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.privacyPolicy {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.iconPicture {
+    margin: auto;
+    height: 300px;
+    padding: 10px;
+}
+
+.appStore {
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    padding: 10px;
+}
+
+.penguinContainer {
+    border: 2px solid #F2536E;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+  }
+
+  .appTextContainer {
+      margin: auto;
+  }

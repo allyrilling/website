@@ -1,0 +1,30 @@
+.resumeCategoryHeader {
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.resumeItemBody {
+    border: 2px solid cadetblue;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.resumeECAandMoreColR {
+    margin-right: 5px;
+}
+
+.resumeECAandMoreColL {
+    margin-left: 5px;
+}
+
+.resumeTitleText {
+    font-size: 25px;
+}
+
+.resumeSubtitleText {
+    font-size: 20px;
+}

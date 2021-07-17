@@ -1,18 +1,19 @@
+import '../CSScomponents/Resume.css'
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 
 export default function Resume() {
     return (
         <Container>
-          <Row><h1 className="h1Header">Resume</h1></Row>
+          <Row><h1 className="globalPageTitle">Resume</h1></Row>
     
-          <Row className="h2Header"><h2>Education</h2></Row>
+          <Row className="resumeCategoryHeader"><h2>Education</h2></Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
-              <Row><h3 className="h3Header">University of Wisconsin — Madison</h3></Row>
-              <Row><h4 className="h4Header">Graduation Spring 2023</h4></Row>
-              <Row><h4 className="h4Header">Majors: Finance and Computer Science</h4></Row>
+              <Row><h3 className="resumeTitleText">University of Wisconsin — Madison</h3></Row>
+              <Row><h4 className="resumeSubtitleText">Graduation Spring 2023</h4></Row>
+              <Row><h4 className="resumeSubtitleText">Majors: Finance and Computer Science</h4></Row>
             </Col>
             <Col>
               <ul>
@@ -39,12 +40,12 @@ export default function Resume() {
             </Col>
           </Row>
     
-          <Row className="h2Header"><h2>Experiance</h2></Row>
+          <Row className="resumeCategoryHeader"><h2>Experiance</h2></Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
-              <Row><h3 className="h3Header">Technology Intern, Wells Fargo</h3></Row>
-              <Row><h4 className="h4Header">June 2021 - Present</h4></Row>
+              <Row><h3 className="resumeTitleText">Technology Intern, Wells Fargo</h3></Row>
+              <Row><h4 className="resumeSubtitleText">June 2021 - Present</h4></Row>
             </Col>
             <Col>
               <ul>
@@ -53,10 +54,10 @@ export default function Resume() {
             </Col>
           </Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
-              <Row><h3 className="h3Header">iOS App Developer, Penguin Workouts</h3></Row>
-              <Row><h4 className="h4Header">October 2020 - Present</h4></Row>
+              <Row><h3 className="resumeTitleText">iOS App Developer, Penguin Workouts</h3></Row>
+              <Row><h4 className="resumeSubtitleText">October 2020 - Present</h4></Row>
             </Col>
             <Col>
               <ul>
@@ -67,10 +68,10 @@ export default function Resume() {
             </Col>
           </Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
-              <Row><h3 className="h3Header">Administrative Assistant, Health In Balance Physical Therapy</h3></Row>
-              <Row><h4 className="h4Header">Mequon, Wisconsin | June 2019 - January 2021</h4></Row>
+              <Row><h3 className="resumeTitleText">Administrative Assistant, Health In Balance Physical Therapy</h3></Row>
+              <Row><h4 className="resumeSubtitleText">Mequon, Wisconsin | June 2019 - January 2021</h4></Row>
             </Col>
             <Col>
               <ul>
@@ -82,10 +83,10 @@ export default function Resume() {
             </Col>
           </Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
-              <Row><h3 className="h3Header">Instructor, City of Mequon</h3></Row>
-              <Row><h4 className="h4Header">Mequon, Wisconsin | June 2019 - July 2019</h4></Row>
+              <Row><h3 className="resumeTitleText">Instructor, City of Mequon</h3></Row>
+              <Row><h4 className="resumeSubtitleText">Mequon, Wisconsin | June 2019 - July 2019</h4></Row>
             </Col>
             <Col>
               <ul>
@@ -95,10 +96,10 @@ export default function Resume() {
             </Col>
           </Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
-              <Row><h3 className="h3Header">Associate, Stein’s Garden and Home Store</h3></Row>
-              <Row><h4 className="h4Header">Mequon, Wisconsin | May 2017 - August 2017 </h4></Row>
+              <Row><h3 className="resumeTitleText">Associate, Stein’s Garden and Home Store</h3></Row>
+              <Row><h4 className="resumeSubtitleText">Mequon, Wisconsin | May 2017 - August 2017 </h4></Row>
             </Col>
             <Col>
               <ul>
@@ -109,10 +110,10 @@ export default function Resume() {
             </Col>
           </Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
-              <Row><h3 className="h3Header">Community Service</h3></Row>
-              <Row><h4 className="h4Header">Mequon, Wisconsin | 2015 - 2019</h4></Row>
+              <Row><h3 className="resumeTitleText">Community Service</h3></Row>
+              <Row><h4 className="resumeSubtitleText">Mequon, Wisconsin | 2015 - 2019</h4></Row>
             </Col>
             <Col>
               <ul>
@@ -124,9 +125,9 @@ export default function Resume() {
             </Col>
           </Row>
     
-          <Row className="h2Header"><h2>Skills and Certifications</h2></Row>
+          <Row className="resumeCategoryHeader"><h2>Skills and Certifications</h2></Row>
     
-          <Row className="rowStyle">
+          <Row className="resumeItemBody">
             <Col>
               <h3>Programming Languages</h3>
               <ul>
@@ -158,17 +159,21 @@ export default function Resume() {
               </ul>
             </Col>
           </Row>
-    
-          <Row className="h2Header"><h2>Extra-Curricular Activities</h2></Row>
-    
-          <Row className="rowStyle"><h3 className="h3Header">UW - Madison Track Club | September 2019 - Present</h3></Row>
-    
-          <Row className="h2Header"><h2>More</h2></Row>
-    
-          <Row className="rowStyle">
-            <Col>A feature on <a href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling">MacSparky blog.</a></Col>
-            <Col>To view or download résumé click here.</Col>
+
+          <Row>
+              <Col className="resumeECAandMoreColR">
+                <Row className="resumeCategoryHeader"><h2>Extra-Curricular Activities</h2></Row>
+                <Row className="resumeItemBody"><h3 className="resumeSubtitleText">UW - Madison Track Club | September 2019 - Present</h3></Row>
+              </Col>
+              <Col className="resumeECAandMoreColL">
+                <Row className="resumeCategoryHeader"><h2>More</h2></Row>
+                    <Row className="resumeItemBody">
+                    <Col className="resumeSubtitleText">A feature on <a href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling">MacSparky blog.</a></Col>
+                    <Col className="resumeSubtitleText">Click here for resume.</Col>
+                </Row>
+              </Col>
           </Row>
+    
     
         </Container>
       )
