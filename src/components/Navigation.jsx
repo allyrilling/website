@@ -13,7 +13,7 @@ function Navigation(props) {
                 <Nav.Link href="Home">Home</Nav.Link>
                 <Nav.Link href="Resume">Resume</Nav.Link>
                 <Nav.Link href="AppDevelopment">App Development</Nav.Link>
-                <Nav.Link href="About">About</Nav.Link>
+                <Nav.Link href="Contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
