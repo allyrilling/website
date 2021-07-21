@@ -3,6 +3,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap"
 import icon from "../images/penguinicon.png"
 import appstorebutton from "../images/as.svg"
+import favicon from "../images/Favicon.png"
 
 function AppDevelopment() {
   return (
@@ -32,10 +33,10 @@ function AppDevelopment() {
         </Col>
 
       </Row>
-      
+
       <Row className="siteContainer">
         <Col className="aboutTheAppContainer">
-          <Row><h1>About the Site</h1></Row>
+          <Row><h1>About this Site</h1></Row>
           <Row>
             <p>&emsp;This site is built using ReactJS, React-Bootstrap, HTML, and CSS. It is hosted on Firebase.</p>
             <p>&emsp;This site is my first foray into web development. During my internship at Wells Fargo, I had the opportunity to learn about web development. As I didn’t have much web development experience, I created this site as a playground.</p>
@@ -44,12 +45,12 @@ function AppDevelopment() {
         </Col>
 
         <Col className="iconAndTitleContainer">
-          <img className="iconPicture" src={icon} alt="Penguin Workouts Icon" />
+          <img className="iconPicture" src={favicon} alt="Favicon" />
         </Col>
 
       </Row>
     </Container>
-    
+
   );
 }
 

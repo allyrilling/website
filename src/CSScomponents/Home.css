@@ -37,6 +37,6 @@
     font-size: 25px;
 }
 
-a {
+h2 > a {
     color: #ab34f5;
 }
