@@ -1,6 +1,7 @@
 import '../CSScomponents/Resume.css'
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap"
+import resumePDF from "../files/ARilling.pdf"
 
 export default function Resume() {
   return (
@@ -168,8 +169,8 @@ export default function Resume() {
         <Col className="resumeECAandMoreColL">
           <Row className="resumeCategoryHeader"><h2>More</h2></Row>
           <Row className="resumeItemBody">
-            <Col className="resumeSubtitleText">A feature on <a href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling">MacSparky blog.</a></Col>
-            <Col className="resumeSubtitleText">Click here for resume.</Col>
+            <Col>A feature on <a href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling">MacSparky blog.</a></Col>
+            <Col><a href={resumePDF} download="ARilling.pdf">Click here </a>to download resume.</Col>
           </Row>
         </Col>
       </Row>
