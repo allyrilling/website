@@ -7,38 +7,25 @@ const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';
     if (subject) params += `subject=${encodeURIComponent(subject)}`;
     if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
-  
+
     return <a href={`mailto:${email}${params}`}>{children}</a>;
-  };
+};
 
 export default function Home() {
     return (
         <Container>
-            <Row>
+            <Row className="rowStyle">
+                <Col><img src={me} alt="Ally" className="mePictureCol" /></Col>
                 <Col>
-                    <Row className="boxStyle">
+                    <Row>
                         <Col>
-                            <h1>Ally Rilling</h1>
-                            <ul>
-                                <li>Student at the University of Wisconsin - Madison</li>
-                                <li>Majoring in Computer Science and Finance</li>
-                                <li>Developer of the iOS app Penguin Workouts</li>
-                                <li>Interested in front end development, UI/UX design, and financial technologies</li>
-                            </ul>
-                        </Col>
-                    </Row>
-                    <Row className="boxStyle">
-                        <Col>
-                            <h1>Contact</h1>
-                            <ul>
-                                <li><Mailto email="anrilling@wisc.edu" obfuscate={true}>Email</Mailto></li>
-                                <li>‎<a href="https://www.linkedin.com/in/allyrilling/">LinkedIn</a></li>
-                                <li>‎<a href="https://github.com/allyrilling">GitHub</a></li>
-                            </ul>
+                            <h1>Hello. My name is Ally.</h1>
+                            <p>I am a student at the University of Wisconsin - Madison majoring in Computer Science and Finance. Currently, I am working on an iOS app called Penguin Workouts. I am intersted in front end development, UI/UX design, and financial technologies.</p>
+                            <h2 className="linkText">Contact me on <Mailto email="anrilling@wisc.edu" obfuscate={true}>email</Mailto> or ‎<a href="https://www.linkedin.com/in/allyrilling/">LinkedIn</a>.</h2>
+                            <h2 className="linkText">See some of my work on <a href="https://github.com/allyrilling">GitHub</a>.</h2>
                         </Col>
                     </Row>
                 </Col>
-                <Col><Row><img src={me} alt="Ally" className="mePicture"/></Row></Col>
             </Row>
         </Container>
     )
