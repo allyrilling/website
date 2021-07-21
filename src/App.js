@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contact from "./components/Contact";
 import Home from "./components/Home";
 import AppDevelopment from "./components/AppDevelopment";
 import Navigation from "./components/Navigation";
@@ -21,7 +20,6 @@ function App() {
             <Route path="/home" exact component={() => <Home />} />
             <Route path="/resume" exact component={() => <Resume />} />
             <Route path="/appdevelopment" exact component={() => <AppDevelopment />} />
-            <Route path="/contact" exact component={() => <Contact />} />
             <Route path="/privacypolicy" exact component={() => <PrivacyPolicy />} />
           </Switch>
         </div>
