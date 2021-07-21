@@ -1,47 +1,19 @@
-.textContainer {
+.mePicture {
+    /* margin-left: auto;
+    margin-right: auto; */
     margin: auto;
-}
-
-.bigText {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    background-color: rgb(0, 210, 130);
-    border-radius: 15px;
-    padding: 15px;
-    font-size: 60px;
-}
-
-.mediumText {
-    margin-left: auto;
-    margin-right: auto;
+    height: 500px;
     padding: 10px;
+    border-radius: 50px;
+}
+
+.boxStyle {
+    margin: auto;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+    border: 2px solid darkslateblue;
     border-radius: 15px;
-}
-
-.smallText {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 25px;
-}
-
-.wiscoRed {
-    color: red;
-}
-
-.penguinPink {
-    color: #ff475d;
-}
-
-.uiOrange {
-    color: rgb(255, 225, 0);
-}
-
-.frontEndPurple {
-    color: rgb(252, 148, 249);
-}
-
-.fintechGreen {
-    color: rgb(2, 193, 2);
+    padding: 5px;
+    margin-bottom: 10px;
 }

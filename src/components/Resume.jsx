@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap"
 export default function Resume() {
     return (
         <Container>
-          <Row><h1 className="globalPageTitle">Resume</h1></Row>
+          {/* <Row><h1 className="globalPageTitle">Resume</h1></Row> */}
     
           <Row className="resumeCategoryHeader"><h2>Education</h2></Row>
     
