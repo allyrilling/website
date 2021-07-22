@@ -51,3 +51,7 @@
     border-radius: 15px;
     margin: 10px;
   }
+
+  p > a {
+    color: #E4B9FF;
+  }

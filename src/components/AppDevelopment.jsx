@@ -38,7 +38,7 @@ function AppDevelopment() {
         <Col className="aboutTheAppContainer">
           <Row><h1>About this Site</h1></Row>
           <Row>
-            <p>&emsp;This site is built using ReactJS, React-Bootstrap, HTML, and CSS. It is hosted on Firebase.</p>
+            <p>&emsp;This site is built using ReactJS, React-Bootstrap, HTML, and CSS. It is hosted on Firebase and stored on <a href="https://github.com/allyrilling">GitHub</a>.</p>
             <p>&emsp;This site is my first foray into web development. During my internship at Wells Fargo, I had the opportunity to learn about web development. As I didn’t have much web development experience, I created this site as a playground.</p>
             <p>&emsp;I really enjoyed learning React and experimenting with it to build something totally new.</p>
           </Row>
