@@ -7,8 +7,14 @@
     font-size: 20px;
 }
 
-.privacyPolicy {
+.privacyPolicyPenguin {
     font-size: 18px;
+    color: #F2536E;
+}
+
+.privacyPolicyLightyear {
+    font-size: 18px;
+    color: #1D96FA;
 }
 
 .appStore {
@@ -21,11 +27,36 @@
     padding: 10px;
 }
 
+.lightyearIconPicture {
+    height: 250px;
+    /* padding: 10px; */
+}
+
 .iconAndTitleContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: auto;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 10px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 0px;
 }
 
 .aboutTheAppContainer {
@@ -41,8 +72,11 @@
     margin: 10px;
   }
 
-  a > h3 {
-    color: #F2536E;
+   .lightyearContainer {
+    border: 2px solid #1D96FA;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
   }
 
   .siteContainer {

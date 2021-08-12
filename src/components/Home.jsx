@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <Container>
             <Row className="rowStyle">
-                <Col><img src={me} alt="Ally" className="mePictureCol" /></Col>
+                <Col><img class="mePictureCol" src={me} alt="Ally" /></Col>
                 <Col>
                     <Row>
                         <Col>

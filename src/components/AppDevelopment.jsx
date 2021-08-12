@@ -4,20 +4,21 @@ import { Row, Col, Container } from "react-bootstrap"
 import icon from "../images/penguinicon.png"
 import appstorebutton from "../images/as.svg"
 import favicon from "../images/Favicon.png"
+import lightyearicon from "../images/lightyearicon.png"
 
 function AppDevelopment() {
   return (
     <Container>
-      {/* <Row><h1 className="globalPageTitle">App Development</h1></Row> */}
 
+      {/* PENGUIN CONTAINER */}
       <Row className="penguinContainer">
         <Col className="iconAndTitleContainer">
           <Row><img className="iconPicture" src={icon} alt="Penguin Workouts Icon" /></Row>
           <Row>
             <Col>
               <h1 className="appTitle">Penguin Workouts</h1>
-              <h2 className="appSubtitle">For every fitness level.</h2>
-              <a href="PrivacyPolicy" className="privacyPolicy"><h3 className="privacyPolicy">Privacy Policy</h3></a>
+              <h2 className="appSubtitle">For every fitness level</h2>
+              <a href="PrivacyPolicy" className="privacyPolicyPenguin"><h3 className="privacyPolicyPenguin">Privacy Policy</h3></a>
               <a href="https://apps.apple.com/us/app/penguin-workouts/id1534463056?itsct=apps_box&amp;itscg=30200" className="appStore"><img className="appStore" src={appstorebutton} alt="Download on the App Store" /></a>
             </Col>
           </Row>
@@ -31,17 +32,45 @@ function AppDevelopment() {
             <p>&emsp;This app still has a long way to go, and I intend to continue development while I am in school. I welcome any suggestions :) !</p>
           </Row>
         </Col>
-
       </Row>
 
+      {/* LIGHTYEAR CONTAINER */}
+      <Row className="lightyearContainer">
+
+        <Col className="titleContainer">
+          <h1 className="appTitle">Lightyear</h1>
+          <h2 className="appSubtitle">Solar Stats</h2>
+          <a href="PrivacyPolicy" className="privacyPolicyLightyear"><h3 className="privacyPolicyLightyear">Privacy Policy</h3></a>
+          <a href="" className="appStore"><img className="appStore" src={appstorebutton} alt="Download on the App Store" /></a>
+        </Col>
+
+        <Col className="iconContainer">
+          <img className="lightyearIconPicture" src={lightyearicon} alt="Lightyear Icon" />
+        </Col>
+
+        <Col className="aboutTheAppContainer">
+          <Row><h1>About the App</h1></Row>
+          <Row>
+            <p>&emsp;Lightyear is a little app that visualizes solar stats from the sunrise-sunset.org API. I wanted a fast way to see sunrise and sunset times with day to day changes and I figured the best way to get what I wanted was to make it! This project offered the opportunity to learn how to work with external data sources through API queries and how to read a user’s location with CoreData. It’s written in Swift and SwiftUI.</p>
+          </Row>
+        </Col>
+      </Row>
+
+      {/* SITE CONTAINER */}
       <Row className="siteContainer">
         <Col className="aboutTheAppContainer">
-          <Row><h1>About this Site</h1></Row>
-          <Row>
-            <p>&emsp;This site is built using ReactJS, React-Bootstrap, HTML, and CSS. It is hosted on Firebase and stored on <a href="https://github.com/allyrilling">GitHub</a>.</p>
-            <p>&emsp;This site is my first foray into web development. During my internship at Wells Fargo, I had the opportunity to learn about web development. As I didn’t have much web development experience, I created this site as a playground.</p>
-            <p>&emsp;I really enjoyed learning React and experimenting with it to build something totally new.</p>
-          </Row>
+          <Row><h1>About the Site</h1></Row>
+          <p>I built this site using...</p>
+          <ul>
+            <li>ReactJS</li>
+            <li>React-Bootstrap</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+
+          <p>It is hosted on Firebase and stored on <a href="https://github.com/allyrilling">GitHub</a>.</p>
+          <p>The favicon was made in Figma.</p>
+
         </Col>
 
         <Col className="iconAndTitleContainer">
