@@ -41,7 +41,7 @@ function AppDevelopment() {
           <h1 className="appTitle">Lightyear</h1>
           <h2 className="appSubtitle">Solar Stats</h2>
           <a href="PrivacyPolicy" className="privacyPolicyLightyear"><h3 className="privacyPolicyLightyear">Privacy Policy</h3></a>
-          <a href="" className="appStore"><img className="appStore" src={appstorebutton} alt="Download on the App Store" /></a>
+          <a href="https://apps.apple.com/us/app/lightyear-solar-clock/id1580773908" className="appStore"><img className="appStore" src={appstorebutton} alt="Download on the App Store" /></a>
         </Col>
 
         <Col className="iconContainer">
