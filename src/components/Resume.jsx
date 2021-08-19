@@ -14,7 +14,7 @@ export default function Resume() {
         <Col>
           <Row><h3 className="resumeTitleText">University of Wisconsin — Madison</h3></Row>
           <Row><h4 className="resumeSubtitleText">Graduation Spring 2023</h4></Row>
-          <Row><h4 className="resumeSubtitleText">Majors: Computer Science and Finance</h4></Row>
+          <Row><h4 className="resumeSubtitleText">Majors: Computer Science (BS) and Finance (BS)</h4></Row>
         </Col>
         <Col>
           <ul>
@@ -46,16 +46,36 @@ export default function Resume() {
       <Row className="resumeItemBody">
         <Col>
           <Row><h3 className="resumeTitleText">Technology Intern, Wells Fargo</h3></Row>
-          <Row><h4 className="resumeSubtitleText">June 2021 - Present</h4></Row>
+          <Row><h4 className="resumeSubtitleText">June 2021 - August 2021</h4></Row>
         </Col>
         <Col>
           <ul>
-            <li>Internship is not complete yet!</li>
+            <li>Utilized Selenium to write over 20 UI automation test cases for two different webpages. </li>
+            <li>Mapped elements of the webpage to be tested to variables in code using Xpaths so that their attributes could be validated.</li>
+            <li>Created a workflow for scanning and validating the contents of auto-generated PDFs.</li>
+            <li>Collaborated with a group of six interns in other lines of business to create a presentation about intern networking opportunities.</li>
+            <li>Worked in an Agile environment and participated in Scrum ceremonies on two different teams.</li>
           </ul>
         </Col>
       </Row>
 
       <Row className="resumeItemBody">
+        <Col>
+          <Row><h3 className="resumeTitleText">iOS Developer</h3></Row>
+          <Row><h4 className="resumeSubtitleText">October 2020 - Present</h4></Row>
+        </Col>
+        <Col>
+          <ul>
+            <li>Created <a class="linked" href="AppDevelopment">Penguin Workouts</a> to be a pleasantly designed and user configurable workout app.</li>
+            <li>Built <a class="linked" href="AppDevelopment">Lightyear - Solar Clock</a> as a utility to monitor sunrise and sunset times based on location and calls to a third-party API.</li>
+            <li>Designed and wrote the user interface for both apps using Apple’s SwiftUI.</li>
+            <li>Wrote the backend logic for both apps in Apple’s Swift programming language.</li>
+            <li>Created icons and marketing materials for both apps using Figma.</li>
+          </ul>
+        </Col>
+      </Row>
+
+      {/* <Row className="resumeItemBody">
         <Col>
           <Row><h3 className="resumeTitleText">iOS App Developer, Penguin Workouts</h3></Row>
           <Row><h4 className="resumeSubtitleText">October 2020 - Present</h4></Row>
@@ -67,7 +87,7 @@ export default function Resume() {
             <li>See more about Penguin Workouts <a href="AppDevelopment">here.</a></li>
           </ul>
         </Col>
-      </Row>
+      </Row> */}
 
       <Row className="resumeItemBody">
         <Col>
@@ -84,7 +104,7 @@ export default function Resume() {
         </Col>
       </Row>
 
-      <Row className="resumeItemBody">
+      {/* <Row className="resumeItemBody">
         <Col>
           <Row><h3 className="resumeTitleText">Instructor, City of Mequon</h3></Row>
           <Row><h4 className="resumeSubtitleText">Mequon, Wisconsin | June 2019 - July 2019</h4></Row>
@@ -124,7 +144,7 @@ export default function Resume() {
             <li>Sold Christmas trees for Mequon-Thiensville Optimist Club.</li>
           </ul>
         </Col>
-      </Row>
+      </Row> */}
 
       <Row className="resumeCategoryHeader"><h2>Skills and Certifications</h2></Row>
 
