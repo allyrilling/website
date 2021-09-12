@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5aa115f5.chunk.css",
-    "main.js": "/static/js/main.75bf35a0.chunk.js",
-    "main.js.map": "/static/js/main.75bf35a0.chunk.js.map",
+    "main.js": "/static/js/main.8e8b5ec3.chunk.js",
+    "main.js.map": "/static/js/main.8e8b5ec3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a1baeca7.js",
     "runtime-main.js.map": "/static/js/runtime-main.a1baeca7.js.map",
     "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
     "static/css/main.5aa115f5.chunk.css.map": "/static/css/main.5aa115f5.chunk.css.map",
     "static/js/2.bcce8eee.chunk.js.LICENSE.txt": "/static/js/2.bcce8eee.chunk.js.LICENSE.txt",
-    "static/media/ARilling.b3a68bf1.pdf": "/static/media/ARilling.b3a68bf1.pdf",
+    "static/media/ARilling.bb58ddb2.pdf": "/static/media/ARilling.bb58ddb2.pdf",
     "static/media/Favicon.025d1a8b.png": "/static/media/Favicon.025d1a8b.png",
     "static/media/as.8c4986ee.svg": "/static/media/as.8c4986ee.svg",
     "static/media/lightyearicon.bc7983fa.png": "/static/media/lightyearicon.bc7983fa.png",
@@ -24,6 +24,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.bcce8eee.chunk.js",
     "static/css/main.5aa115f5.chunk.css",
-    "static/js/main.75bf35a0.chunk.js"
+    "static/js/main.8e8b5ec3.chunk.js"
   ]
 }
