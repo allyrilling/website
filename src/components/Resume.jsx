@@ -13,7 +13,7 @@ export default function Resume() {
       <Row className="resumeItemBody">
         <Col>
           <Row><h3 className="resumeTitleText">University of Wisconsin — Madison</h3></Row>
-          <Row><h4 className="resumeSubtitleText">Graduation Spring 2023</h4></Row>
+          <Row><h4 className="resumeSubtitleText">Graduation December 2023</h4></Row>
           <Row><h4 className="resumeSubtitleText">Majors: Computer Science (BS) and Finance (BS)</h4></Row>
         </Col>
         <Col>
