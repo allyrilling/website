@@ -20,6 +20,7 @@ export default function Resume() {
           <ul>
             <li>Relevant Business Coursework</li>
             <ul>
+              <li>Investment Theory, Financial Markets and Economic Activity</li>
               <li>Introduction to Finance, Financial Reporting I</li>
               <li>Introductory Managerial Accounting, Introductory Financial Accounting</li>
               <li>Business Analytics I & II</li>
@@ -31,6 +32,7 @@ export default function Resume() {
           <ul>
             <li>Relevant Computer Science Coursework</li>
             <ul>
+              {/* if i pass algos gotta add that here */}
               <li>Programming I, II & III (in Java)</li>
               <li>Machine Organization and Programming (in C and Assembly)</li>
               <li>Introduction to Discrete Mathematics</li>
@@ -42,6 +44,19 @@ export default function Resume() {
       </Row>
 
       <Row className="resumeCategoryHeader"><h2>Experience</h2></Row>
+
+      <Row className="resumeItemBody">
+        <Col>
+          <Row><h3 className="resumeTitleText">Technical Specialist, Apple</h3></Row>
+          <Row><h4 className="resumeSubtitleText">September 2021 - December 2021</h4></Row>
+        </Col>
+        <Col>
+          <ul>
+            <li>Assisted customers in troubleshooting a wide variety of hardware and software issues with their iPhones, iPads, Apple Watches, and AirPods.</li>
+            <li>Educated customers during appointments on best practices and helpful tips to improve the experience of using their Apple devices.</li>
+          </ul>
+        </Col>
+      </Row>
 
       <Row className="resumeItemBody">
         <Col>
