@@ -19,7 +19,7 @@ function PrivacyPolicy() {
         <h2 className="subText">Personal Data and Identifying Information</h2>
         <p className="bodyText">LightYear does not collect any personal information. Location data is not stored or collected by the app. There are no login or user accounts; all usage of the app is anomyous.</p>
         <h2 className="subText">API: sunrise-sunset.org</h2>
-        <p className="bodyText">LightYear does use the <a href="sunrise-sunset.org" className="linkStyle"> sunrise-sunset.org </a> API. Read their privacy policy <a href="https://sunrise-sunset.org/privacy" className="linkStyle"> here. </a></p>
+        <p className="bodyText">LightYear does use the <a href="https://sunrise-sunset.org" className="linkStyle"> sunrise-sunset.org </a> API. Read their privacy policy <a href="https://sunrise-sunset.org/privacy" className="linkStyle"> here. </a></p>
         <h2 className="subText">App Analytics and Tracking</h2>
         <p className="bodyText">LightYear does not include any third-party trackers and does not collect any analytics data.</p>
       </Row>

@@ -7,6 +7,7 @@ import Navigation from "./components/Navigation";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import PageNotFound from './components/PageNotFound';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/resume" exact component={() => <Resume />} />
             <Route path="/appdevelopment" exact component={() => <AppDevelopment />} />
             <Route path="/privacypolicy" exact component={() => <PrivacyPolicy />} />
+            <Route path="*" component={PageNotFound} />
           </Switch>
         </div>
         <div id="footer"> <Footer /> </div>
