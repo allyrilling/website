@@ -27,9 +27,9 @@ function AppDevelopment() {
         <Col className="aboutTheAppContainer">
           <Row><h1>About the App</h1></Row>
           <Row>
-            <p>&emsp;Penguin Workouts is the first major programming project that I have taken on. During its development, I learned a lot about Swift, SwiftUI, and Xcode. I made this app because I wanted to have something to guide me through workouts when I didn't have a lot of time to generate a workout on my own. The very first implementation of this concept was created using Shortcuts. After WWDC 2020, I decided to purchase an Apple Developer Account because I wanted to try the betas of iOS 14, iPadOS 14, watchOS 7, and macOS Big Sur. I thought because I had the developer account, I should try out making an app. After a few projects that didn’t go very far, I settled on creating a workout app to improve upon the Shortcut I had made. </p>
-            <p>&emsp;Now that I have been developing the app for a few months, I have realized UI design interests me. Creating an interface that is both intuitive and clean is extremely challenging, but I enjoy trying to find the balance.</p>
-            <p>&emsp;This app still has a long way to go, and I intend to continue development while I am in school. I welcome any suggestions :) !</p>
+            <p>&emsp;Penguin Workouts is the first major programming project that I have taken on. During its development, I learned a lot about Swift, SwiftUI, and Xcode. I made this app because I wanted to have something to guide me through workouts when I didn't have a lot of time to generate a workout on my own. I created the first implementation of this concept using Shortcuts. After WWDC 2020, I decided to purchase an Apple Developer Account and see if I could make this Shortcut into an app. </p>
+            <p>&emsp;Now that I have been developing the app for a while, I have realized UI design interests me. Creating an interface that is both intuitive and clean is extremely challenging, but I enjoy trying to find the balance.</p>
+            <p>&emsp;I still have lots of feature ideas I would like to add into the app and I am continuing development while I am in school. I welcome any suggestions :) !</p>
           </Row>
         </Col>
       </Row>
