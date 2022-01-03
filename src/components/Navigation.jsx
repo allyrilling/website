@@ -12,7 +12,7 @@ function Navigation(props) {
           <Nav className="ml-auto">
             <Nav.Link href="Home">Home</Nav.Link>
             <Nav.Link href="Resume">Resume</Nav.Link>
-            <Nav.Link href="AppDevelopment">Development Work</Nav.Link>
+            <Nav.Link href="AppDevelopment">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

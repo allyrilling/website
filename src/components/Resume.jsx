@@ -34,6 +34,7 @@ export default function Resume() {
             <ul>
               {/* if i pass algos gotta add that here */}
               <li>Programming I, II & III (in Java)</li>
+              <li>Algorithms</li>
               <li>Machine Organization and Programming (in C and Assembly)</li>
               <li>Introduction to Discrete Mathematics</li>
               <li>Introduction to Computer Engineering</li>
@@ -107,7 +108,7 @@ export default function Resume() {
       <Row className="resumeItemBody">
         <Col>
           <Row><h3 className="resumeTitleText">Administrative Assistant, Health In Balance Physical Therapy</h3></Row>
-          <Row><h4 className="resumeSubtitleText">Mequon, Wisconsin | June 2019 - January 2021</h4></Row>
+          <Row><h4 className="resumeSubtitleText">June 2019 - January 2021</h4></Row>
         </Col>
         <Col>
           <ul>
@@ -179,7 +180,7 @@ export default function Resume() {
         <Col>
           <h3>Software Proficiencies</h3>
           <ul>
-            <li>Microsoft: Word, Excel, PowerPoint, Outlook, OneNote</li>
+            <li>Microsoft: Word, Excel, PowerPoint</li>
             <li>G Suite: Docs, Sheets, Slides, Sites</li>
             <li>iWork: Pages, Keynote, Numbers</li>
             <li>IDEs: Xcode, IntelliJ IDEA, Eclipse, WebStorm</li>
