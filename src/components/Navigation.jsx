@@ -2,9 +2,10 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
-function Navigation(props) {
+function Navigation ( props )
+{
   return (
-    <Navbar collapseOnSelect expand="lg" bg="#242424" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
         <Navbar.Brand style={{ fontSize: '30px' }} href="Home">Ally Rilling</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,4 +21,4 @@ function Navigation(props) {
   );
 }
 
-export default withRouter(Navigation);
+export default withRouter( Navigation );
