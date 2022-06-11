@@ -3,7 +3,8 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap"
 import resumePDF from "../files/ARilling.pdf"
 
-export default function Resume() {
+export default function Resume ()
+{
   return (
     <Container>
       {/* <Row><h1 className="globalPageTitle">Resume</h1></Row> */}
@@ -20,6 +21,7 @@ export default function Resume() {
           <ul>
             <li>Relevant Business Coursework</li>
             <ul>
+              <li>Corporate Finance</li>
               <li>Investment Theory, Financial Markets and Economic Activity</li>
               <li>Introduction to Finance, Financial Reporting I</li>
               <li>Introductory Managerial Accounting, Introductory Financial Accounting</li>
@@ -32,7 +34,8 @@ export default function Resume() {
           <ul>
             <li>Relevant Computer Science Coursework</li>
             <ul>
-              {/* if i pass algos gotta add that here */}
+              <li>Building User Interfaces</li>
+              <li>Introduction to Human Computer Interaction</li>
               <li>Programming I, II & III (in Java)</li>
               <li>Algorithms</li>
               <li>Machine Organization and Programming (in C and Assembly)</li>
@@ -45,6 +48,32 @@ export default function Resume() {
       </Row>
 
       <Row className="resumeCategoryHeader"><h2>Experience</h2></Row>
+
+      <Row className="resumeItemBody">
+        <Col>
+          <Row><h3 className="resumeTitleText">Technology Intern, Charles Schwab</h3></Row>
+          <Row><h4 className="resumeSubtitleText">June 2022 - Present</h4></Row>
+        </Col>
+        {/* <Col>
+          <ul>
+            <li>Assisted customers in troubleshooting a wide variety of hardware and software issues with their iPhones, iPads, Apple Watches, and AirPods.</li>
+            <li>Educated customers during appointments on best practices and helpful tips to improve the experience of using their Apple devices.</li>
+          </ul>
+        </Col> */}
+      </Row>
+
+      {/* <Row className="resumeItemBody">
+        <Col>
+          <Row><h3 className="resumeTitleText">Assistant</h3></Row>
+          <Row><h4 className="resumeSubtitleText">January 2022 - May 2022</h4></Row>
+        </Col>
+        <Col>
+          <ul>
+            <li>Assisted customers in troubleshooting a wide variety of hardware and software issues with their iPhones, iPads, Apple Watches, and AirPods.</li>
+            <li>Educated customers during appointments on best practices and helpful tips to improve the experience of using their Apple devices.</li>
+          </ul>
+        </Col>
+      </Row> */}
 
       <Row className="resumeItemBody">
         <Col>
@@ -169,11 +198,10 @@ export default function Resume() {
           <h3>Programming Languages</h3>
           <ul>
             <li>Java</li>
-            <li>Swift / SwiftUI</li>
             <li>Python</li>
+            <li>JavaScript / HTML / CSS</li>
+            <li>Swift / SwiftUI</li>
             <li>C / C++</li>
-            <li>HTML / CSS</li>
-            <li>JavaScript</li>
           </ul>
         </Col>
 
@@ -183,7 +211,7 @@ export default function Resume() {
             <li>Microsoft: Word, Excel, PowerPoint</li>
             <li>G Suite: Docs, Sheets, Slides, Sites</li>
             <li>iWork: Pages, Keynote, Numbers</li>
-            <li>IDEs: Xcode, IntelliJ IDEA, Eclipse, WebStorm</li>
+            <li>IDEs: JetBrains IDEs, Xcode, Eclipse, VS Code</li>
             <li>Git and GitHub</li>
           </ul>
         </Col>
