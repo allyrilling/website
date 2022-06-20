@@ -41,7 +41,6 @@ export default function Resume ()
               <li>Machine Organization and Programming (in C and Assembly)</li>
               <li>Introduction to Discrete Mathematics</li>
               <li>Introduction to Computer Engineering</li>
-              <li>Learn a Programming Language: C++</li>
             </ul>
           </ul>
         </Col>
@@ -62,18 +61,19 @@ export default function Resume ()
         </Col> */}
       </Row>
 
-      {/* <Row className="resumeItemBody">
+      <Row className="resumeItemBody">
         <Col>
-          <Row><h3 className="resumeTitleText">Assistant</h3></Row>
+          <Row><h3 className="resumeTitleText">Teaching Assistant, Professor Sebastien Plante</h3></Row>
           <Row><h4 className="resumeSubtitleText">January 2022 - May 2022</h4></Row>
         </Col>
         <Col>
           <ul>
-            <li>Assisted customers in troubleshooting a wide variety of hardware and software issues with their iPhones, iPads, Apple Watches, and AirPods.</li>
-            <li>Educated customers during appointments on best practices and helpful tips to improve the experience of using their Apple devices.</li>
+            <li>Assisted in the restructuring of course content to utilize Python for teaching investment theory.</li>
+            <li>Wrote practice problems about the time value of money and programming concepts including variables, conditionals, loops, data structures, and running regressions in Python.</li>
+            <li>Created multiple 1-3 minute video animations to demonstrate basic programming concepts like variables and lists.</li>
           </ul>
         </Col>
-      </Row> */}
+      </Row>
 
       <Row className="resumeItemBody">
         <Col>
@@ -208,6 +208,7 @@ export default function Resume ()
         <Col>
           <h3>Software Proficiencies</h3>
           <ul>
+            <li>Figma</li>
             <li>Microsoft: Word, Excel, PowerPoint</li>
             <li>G Suite: Docs, Sheets, Slides, Sites</li>
             <li>iWork: Pages, Keynote, Numbers</li>

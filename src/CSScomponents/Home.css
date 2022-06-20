@@ -55,5 +55,6 @@ h2 > a {
 }
 
 .imgStyle {
-    margin: 20px;
+    margin: 16px;
+    width: 32px;
 }
