@@ -76,7 +76,7 @@ function AppDevelopment ()
         <Col className="aboutTheAppContainer">
           <Row><h1>About the App</h1></Row>
           <Row>
-            <p>Lightyear is a utility that visualizes the current sunrise, sunset, and daylight ours. It shows the amount of daylight gained or lost over the last day, week, and month. Lightyear uses data from the <a href="https://sunrise-sunset.org" className="privacyPolicyLightyear"> sunrise-sunset.org </a> API.</p>
+            <p>Lightyear is a utility that visualizes the current sunrise, sunset, and daylight hours. It shows the amount of daylight gained or lost over the last day, week, and month. Lightyear uses data from the <a href="https://sunrise-sunset.org" className="privacyPolicyLightyear"> sunrise-sunset.org </a> API.</p>
             {/* <p>&emsp;Lightyear is a utility app that visualizes solar stats from the <a href="https://sunrise-sunset.org" className="privacyPolicyLightyear"> sunrise-sunset.org </a> API. I wanted a fast way to see sunrise and sunset times with day to day changes and I figured the best way to get what I wanted was to make it! This project offered the opportunity to learn how to work with external data sources through API queries and how to read a user’s location with CoreData. It’s written in Swift and SwiftUI.</p> */}
           </Row>
         </Col>
