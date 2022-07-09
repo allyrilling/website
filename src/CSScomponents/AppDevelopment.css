@@ -17,6 +17,26 @@
     color: #1D96FA;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+
 .appStore {
     height: 70px;
     padding: 10px;

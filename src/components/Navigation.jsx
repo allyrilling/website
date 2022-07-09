@@ -2,7 +2,8 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
-function Navigation(props) {
+function Navigation ( props )
+{
   return (
     <Navbar collapseOnSelect expand="lg" bg="#242424" variant="dark">
       <Container>
@@ -12,7 +13,7 @@ function Navigation(props) {
           <Nav className="ml-auto">
             <Nav.Link href="Home">Home</Nav.Link>
             <Nav.Link href="Resume">Resume</Nav.Link>
-            <Nav.Link href="AppDevelopment">Projects</Nav.Link>
+            <Nav.Link href="Projects">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -20,4 +21,4 @@ function Navigation(props) {
   );
 }
 
-export default withRouter(Navigation);
+export default withRouter( Navigation );
