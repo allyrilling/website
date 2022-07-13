@@ -24,6 +24,7 @@ import jsImg from './images/jsimg.png';
 import reactDemo from './files/ReactDemo.mov';
 import rnFigmaDemo from './files/rnfigmademo.mov';
 import rnDemo from './files/rndemo.MP4';
+import dfDemo from './files/dfdemo.mp4';
 
 function App() {
 	return (
@@ -196,7 +197,9 @@ function App() {
 									projectIcon={rnlogo}
 									aboutThe='About the Project'
 									class={'rnContainer'}
-									description={[]}
+									description={[
+										'This is a fitness tracking app built with React Native. Users can log into their account and view historical workouts data. The prototype shows the intended user interface; however, time constraints restricted the amount of user interface polishing done. Users can view, add, edit, and delete workouts and view and edit their account data. ',
+									]}
 									extras={
 										<Col>
 											<Row>
@@ -234,7 +237,19 @@ function App() {
 									projectIcon={dialogflowlogo}
 									aboutThe='About the Project'
 									class={'dfContainer'}
-									description={[]}
+									description={[
+										'This project is a Dialogflow chatbot integrated into a store website. Using the chatbot, users can log into the website, ask questions about products and categories, navigate the website, and checkout. The chatbot parses natural language input and chooses the best output from pre-specified options.',
+									]}
+									extras={
+										<Col>
+											<Row>
+												<h1>Implementation</h1>
+											</Row>
+											<Row>
+												<iframe width='1920' height='750' src={dfDemo} />
+											</Row>
+										</Col>
+									}
 								/>
 							)}
 						/>
