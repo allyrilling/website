@@ -254,18 +254,34 @@ function App() {
 							)}
 						/>
 						<Route
-							path='/projects/cs570ip'
+							path='/projects/cs570'
 							exact
 							component={() => (
 								<ProjectMaxi
-									title='Individual Project'
+									title='High Fidelity Prototypes'
 									subtitle='CS570 Class Project'
-									link=''
-									logo={gitHubIcon}
 									projectIcon={iplogo}
 									aboutThe='About the Project'
 									class={'ipContainer'}
-									description={[]}
+									description={[
+										'Both of the following prototypes are built in Figma and are interactive. The first prototype is for a new video streaming app. It was built with feedback from real users gathered in user interviews. The second is a website for an online grocery delivering service and exemplifies the user flow for ordering groceries online. ',
+									]}
+									extras={
+										<Col>
+											<iframe
+												width='800'
+												height='450'
+												src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwzqDP1h3h0lLoNTOdIB8vl%2FCS570-CulturalProbe%3Fpage-id%3D0%253A1%26node-id%3D28%253A2%26starting-point-node-id%3D28%253A2'
+												allowfullscreen
+											></iframe>
+											<iframe
+												width='800'
+												height='450'
+												src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU5RQwonAfPai8a1MVHrq7o%2FInterim-Presentation%3Fpage-id%3D0%253A1%26node-id%3D86%253A1728%26starting-point-node-id%3D86%253A1728'
+												allowfullscreen
+											></iframe>
+										</Col>
+									}
 								/>
 							)}
 						/>

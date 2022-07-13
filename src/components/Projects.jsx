@@ -39,7 +39,7 @@ function Projects ()
           <a href="/projects/react"><ProjectMini icon={reactlogo} name="React ɑ/β" description="CS571 Class Project" /></a>
           <a href="/projects/reactnative"><ProjectMini icon={rnlogo} name="React Native ɑ/β" description="CS571 Class Project" /></a>
           <a href="/projects/dialogflow"> <ProjectMini icon={dialogflowlogo} name="Dialogflow" description="CS571 Class Project" /></a>
-          <a href="/projects/cs570ip"><ProjectMini icon={iplogo} name="Individual Project" description="CS570 Class Project" /></a>
+          <a href="/projects/cs570"><ProjectMini icon={iplogo} name="High Fidelity Prototypes" description="CS570 Class Projects" /></a>
         </Row>
       </Col>
 
