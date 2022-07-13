@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Row, Col, Container, Nav, Navbar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
 import Projects from './components/Projects';
@@ -19,6 +20,10 @@ import lightyearicon from './images/lightyearicon.png';
 import iplogo from './images/iplogo.svg';
 import appStoreIcon from './images/as.svg';
 import gitHubIcon from './images/viewongithub.svg';
+import jsImg from './images/jsimg.png';
+import reactDemo from './files/ReactDemo.mov';
+import rnFigmaDemo from './files/rnfigmademo.mov';
+import rnDemo from './files/rndemo.MP4';
 
 function App() {
 	return (
@@ -33,7 +38,6 @@ function App() {
 						<Route path='/resume' exact component={() => <Resume />} />
 						<Route path='/projects' exact component={() => <Projects />} />
 						<Route path='/privacypolicy' exact component={() => <PrivacyPolicy />} />
-
 						<Route
 							path='/projects/penguinworkouts'
 							exact
@@ -41,15 +45,17 @@ function App() {
 								<ProjectMaxi
 									title='Penguin Workouts'
 									subtitle='For every fitness level.'
+									showPrivacyPolicy={true}
 									link='https://apps.apple.com/us/app/penguin-workouts/id1534463056?itsct=apps_box&amp;itscg=30200'
 									logo={appStoreIcon}
 									projectIcon={icon}
 									aboutThe='About the App'
+									linkClass='privacyPolicyPenguin'
+									class={'penguinContainer'}
 									description='Penguin Workouts is a workout app that allows users to create quick workouts from a range of exercises. Users can add their own exercises and choose the number of exercises in each workout. The app includes upper body, lower body, hips, and core exercises. Additionally, Penguin Workouts comes with nine beautiful themes.'
 								/>
 							)}
 						/>
-
 						<Route
 							path='/projects/lightyear'
 							exact
@@ -57,10 +63,13 @@ function App() {
 								<ProjectMaxi
 									title='Lightyear'
 									subtitle='Solar Stats.'
+									showPrivacyPolicy={true}
 									link='https://apps.apple.com/us/app/lightyear-solar-clock/id1580773908'
 									logo={appStoreIcon}
 									projectIcon={lightyearicon}
 									aboutThe='About the App'
+									linkClass='privacyPolicyLightyear'
+									class={'lightyearContainer'}
 									description={[
 										'Lightyear is a utility that visualizes the current sunrise, sunset, and daylight hours. It shows the amount of daylight gained or lost over the last day, week, and month. Lightyear uses data from the ',
 										<a href=' https://sunrise-sunset.org' className='privacyPolicyLightyear'>
@@ -72,7 +81,6 @@ function App() {
 								/>
 							)}
 						/>
-
 						<Route
 							path='/projects/site'
 							exact
@@ -84,6 +92,7 @@ function App() {
 									logo={gitHubIcon}
 									projectIcon={favicon}
 									aboutThe='About the Site'
+									class={'siteContainer'}
 									description={[
 										<p>I built this site using...</p>,
 										<ul>
@@ -93,14 +102,12 @@ function App() {
 											<li>CSS</li>
 										</ul>,
 										<p>
-											It is hosted on Firebase and available on <a href='https://github.com/allyrilling'>GitHub</a>.
+											It is hosted on Firebase and available on <a href='https://github.com/allyrilling'>GitHub</a>. The favicon was made in Figma.
 										</p>,
-										<p>The favicon was made in Figma.</p>,
 									]}
 								/>
 							)}
 						/>
-
 						<Route
 							path='/projects/javascript'
 							exact
@@ -108,15 +115,36 @@ function App() {
 								<ProjectMaxi
 									title='JavaScript ɑ/β'
 									subtitle='CS571 Class Project'
-									link=''
+									link='https://github.com/CS571/js-beta-s22-allyrilling'
 									logo={gitHubIcon}
 									projectIcon={jslogo}
 									aboutThe='About the Project'
-									description={[]}
+									description={['The goal of this project was to create a webpage with JavaScript functionality and style it with Bootstrap CSS.']}
+									class={'jsContainer'}
+									extras={
+										<Row>
+											{/* <h3>
+												See Figma design file{' '}
+												<a href='https://www.figma.com/file/LydookNshs1dvt0unjOco6/CS571-JavaScript-Beta?node-id=0%3A1' color='#F7DF1E'>
+													here
+												</a>
+												.
+											</h3> */}
+											<iframe
+												// style='border: 1px solid rgba(0, 0, 0, 0.1);'
+												className='center'
+												width='800'
+												height='450'
+												src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fnode-id%3D0%253A1'
+												allowfullscreen
+											></iframe>
+											<img src={jsImg} class='center'></img>
+										</Row>
+									}
 								/>
 							)}
 						/>
-
+						// TODO: add a "main features" tag
 						<Route
 							path='/projects/react'
 							exact
@@ -128,11 +156,34 @@ function App() {
 									logo={gitHubIcon}
 									projectIcon={reactlogo}
 									aboutThe='About the Project'
-									description={[]}
+									class={'reactContainer'}
+									description={[
+										'This project is course managment app. The React application pulls course data from the UW-Madison course database and loads it into the interface. State is preserved across tabs and interactions are handled using JavaScript.',
+									]}
+									extras={
+										<Col>
+											<Row>
+												<h1>Prototype</h1>
+											</Row>
+											<Row>
+												<iframe
+													width='800'
+													height='450'
+													src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrZWgf3fqn83YPhj2QrItiP%2FCS571-ReactBeta%3Fpage-id%3D0%253A1%26node-id%3D20%253A421%26scaling%3Dscale-down%26starting-point-node-id%3D20%253A421'
+													allowfullscreen
+												></iframe>
+											</Row>
+											<Row>
+												<h1>Implementation</h1>
+											</Row>
+											<Row>
+												<iframe width='1920' height='750' src={reactDemo} />
+											</Row>
+										</Col>
+									}
 								/>
 							)}
 						/>
-
 						<Route
 							path='/projects/reactnative'
 							exact
@@ -144,11 +195,33 @@ function App() {
 									logo={gitHubIcon}
 									projectIcon={rnlogo}
 									aboutThe='About the Project'
+									class={'rnContainer'}
 									description={[]}
+									extras={
+										<Col>
+											<Row>
+												<h1>Prototype</h1>
+											</Row>
+											<Row>
+												<iframe
+													width='800'
+													height='450'
+													src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWQ5DrKYANTxJIJr6Et2UrU%2FCS571-ReactNativeBeta%3Fpage-id%3D0%253A1%26node-id%3D23%253A368%26viewport%3D480%252C242%252C0.18%26scaling%3Dscale-down%26starting-point-node-id%3D23%253A368'
+													allowfullscreen
+												></iframe>
+												<iframe width='800' height='450' src={rnFigmaDemo}></iframe>
+											</Row>
+											<Row>
+												<h1>Implementation</h1>
+											</Row>
+											<Row>
+												<iframe width='1920' height='750' src={rnDemo} />
+											</Row>
+										</Col>
+									}
 								/>
 							)}
 						/>
-
 						<Route
 							path='/projects/dialogflow'
 							exact
@@ -160,11 +233,11 @@ function App() {
 									logo={gitHubIcon}
 									projectIcon={dialogflowlogo}
 									aboutThe='About the Project'
+									class={'dfContainer'}
 									description={[]}
 								/>
 							)}
 						/>
-
 						<Route
 							path='/projects/cs570ip'
 							exact
@@ -176,11 +249,11 @@ function App() {
 									logo={gitHubIcon}
 									projectIcon={iplogo}
 									aboutThe='About the Project'
+									class={'ipContainer'}
 									description={[]}
 								/>
 							)}
 						/>
-
 						<Route path='*' component={PageNotFound} />
 					</Switch>
 				</div>

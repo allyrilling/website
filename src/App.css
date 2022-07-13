@@ -42,4 +42,66 @@
   }
 
 
- 
+ .center {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.penguinContainer {
+    border: 2px solid #F2536E;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+   .lightyearContainer {
+    border: 2px solid #1D96FA;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .siteContainer {
+    border: 2px solid #007E86;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .jsContainer {
+    border: 2px solid #F7DF1E;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .reactContainer {
+    border: 2px solid #53C1DE;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+    .rnContainer {
+    border: 2px solid #61DAFB;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+.dfContainer {
+    border: 2px solid #EF6C00;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .ipContainer {
+    border: 2px solid #7EFFE0;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+  }

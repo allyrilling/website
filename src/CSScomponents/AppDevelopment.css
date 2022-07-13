@@ -84,7 +84,7 @@ a:active {
     justify-content: center;
 }
 
-  .penguinContainer {
+  /* .penguinContainer {
     border: 2px solid #F2536E;
     padding: 20px;
     border-radius: 15px;
@@ -103,7 +103,7 @@ a:active {
     padding: 20px;
     border-radius: 15px;
     margin: 10px;
-  }
+  } */
 
   p > a {
     color: #E4B9FF;
