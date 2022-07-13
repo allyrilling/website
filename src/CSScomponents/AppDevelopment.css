@@ -108,3 +108,13 @@ a:active {
   p > a {
     color: #E4B9FF;
   }
+
+  .headerContainer {
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}

@@ -25,7 +25,7 @@ export default function Home ()
                     <Row>
                         <Col>
                             <h1>Hello. My name is Ally.</h1>
-                            <p>I am a student at the University of Wisconsin - Madison majoring in Computer Science and Finance. I am intersted in front end development, UI/UX design, and financial technology.</p>
+                            <p>I am a student at the University of Wisconsin - Madison majoring in computer science and finance. I am intersted in front end development, UI/UX design, and financial technology.</p>
                             {/* <h2 className="linkText">Contact me on <a href="https://www.linkedin.com/in/allyrilling/">LinkedIn</a> or through <Mailto email="anrilling@wisc.edu" obfuscate={true}>email</Mailto> .</h2>
                             <h2 className="linkText">See some of my work on <a href="https://github.com/allyrilling">GitHub</a>.</h2> */}
                             <Row>
