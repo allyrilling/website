@@ -25,6 +25,12 @@ import reactDemo from './files/ReactDemo.mov';
 import rnFigmaDemo from './files/rnfigmademo.mov';
 import rnDemo from './files/rndemo.MP4';
 import dfDemo from './files/dfdemo.mp4';
+import ss_home_1_0 from './images/screenshots-1.0/home.png';
+import ss_home_1_1 from './images/screenshots-1.1/home.png';
+import ss_home_1_2 from './images/screenshots-1.2/home.png';
+import zip_1_0 from './files/screenshots-1.0.zip';
+import zip_1_1 from './files/screenshots-1.1.zip';
+import zip_1_2 from './files/screenshots-1.2.zip';
 
 function App() {
 	return (
@@ -54,6 +60,50 @@ function App() {
 									linkClass='privacyPolicyPenguin'
 									class={'penguinContainer'}
 									description='Penguin Workouts is a workout app that allows users to create quick workouts from a range of exercises. Users can add their own exercises and choose the number of exercises in each workout. The app includes upper body, lower body, hips, and core exercises. Additionally, Penguin Workouts comes with nine beautiful themes.'
+									extras={
+										<Container>
+											<Row className='penguinContainer'>
+												<h1>Versions</h1>
+											</Row>
+											<Row>
+												<Col className='penguinContainer'>
+													<h2>v1.2</h2>
+													<p>
+														Download images{' '}
+														<a href={zip_1_2} download='PenguinWorkouts-1.2.zip'>
+															here
+														</a>
+														.
+													</p>
+													<img src={ss_home_1_2} width='300px'></img>
+												</Col>
+
+												<Col className='penguinContainer'>
+													<h2>v1.1</h2>
+													<p>
+														Download images{' '}
+														<a href={zip_1_1} download='PenguinWorkouts-1.1.zip'>
+															here
+														</a>
+														.
+													</p>
+													<img src={ss_home_1_1} width='200px'></img>
+												</Col>
+
+												<Col className='penguinContainer'>
+													<h2>v1.0</h2>
+													<p>
+														Download images{' '}
+														<a href={zip_1_0} download='PenguinWorkouts-1.0.zip'>
+															here
+														</a>
+														.
+													</p>
+													<img src={ss_home_1_0} width='200px'></img>
+												</Col>
+											</Row>
+										</Container>
+									}
 								/>
 							)}
 						/>
@@ -123,24 +173,36 @@ function App() {
 									description={['The goal of this project was to create a webpage with JavaScript functionality and style it with Bootstrap CSS.']}
 									class={'jsContainer'}
 									extras={
-										<Row>
-											{/* <h3>
-												See Figma design file{' '}
-												<a href='https://www.figma.com/file/LydookNshs1dvt0unjOco6/CS571-JavaScript-Beta?node-id=0%3A1' color='#F7DF1E'>
-													here
-												</a>
-												.
-											</h3> */}
-											<iframe
-												// style='border: 1px solid rgba(0, 0, 0, 0.1);'
-												className='center'
-												width='800'
-												height='450'
-												src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fnode-id%3D0%253A1'
-												allowfullscreen
-											></iframe>
-											<img src={jsImg} class='center'></img>
-										</Row>
+										<Container>
+											<Row>
+												<Col className='jsContainer'>
+													<h1>Prototype</h1>
+													<p>
+														View full screen prototype{' '}
+														<a href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'>
+															here
+														</a>
+														.
+													</p>
+												</Col>
+												<Col>
+													<iframe
+														width='800'
+														height='450'
+														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'
+														allowfullscreen
+													></iframe>
+												</Col>
+											</Row>
+											<Row>
+												<Col className='jsContainer'>
+													<h1>Implementation</h1>
+												</Col>
+												<Col>
+													<img src={jsImg} width='750'></img>
+												</Col>
+											</Row>
+										</Container>
 									}
 								/>
 							)}
@@ -162,25 +224,36 @@ function App() {
 										'This project is course managment app. The React application pulls course data from the UW-Madison course database and loads it into the interface. State is preserved across tabs and interactions are handled using JavaScript.',
 									]}
 									extras={
-										<Col>
+										<Container>
 											<Row>
-												<h1>Prototype</h1>
+												<Col className='reactContainer'>
+													<h1>Prototype</h1>
+													<p>
+														View full screen prototype{' '}
+														<a href='https://www.figma.com/proto/rZWgf3fqn83YPhj2QrItiP/CS571-ReactBeta?embed_host=share&kind=&node-id=20%3A421&page-id=0%3A1&scaling=scale-down&starting-point-node-id=20%3A421'>
+															here
+														</a>
+														.
+													</p>
+												</Col>
+												<Col>
+													<iframe
+														width='800'
+														height='450'
+														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrZWgf3fqn83YPhj2QrItiP%2FCS571-ReactBeta%3Fpage-id%3D0%253A1%26node-id%3D20%253A421%26scaling%3Dscale-down%26starting-point-node-id%3D20%253A421'
+														allowfullscreen
+													></iframe>
+												</Col>
 											</Row>
 											<Row>
-												<iframe
-													width='800'
-													height='450'
-													src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrZWgf3fqn83YPhj2QrItiP%2FCS571-ReactBeta%3Fpage-id%3D0%253A1%26node-id%3D20%253A421%26scaling%3Dscale-down%26starting-point-node-id%3D20%253A421'
-													allowfullscreen
-												></iframe>
+												<Col className='reactContainer'>
+													<h1>Implementation</h1>
+												</Col>
+												<Col>
+													<iframe width='750' height='450' src={reactDemo} />
+												</Col>
 											</Row>
-											<Row>
-												<h1>Implementation</h1>
-											</Row>
-											<Row>
-												<iframe width='1920' height='750' src={reactDemo} />
-											</Row>
-										</Col>
+										</Container>
 									}
 								/>
 							)}
@@ -201,26 +274,38 @@ function App() {
 										'This is a fitness tracking app built with React Native. Users can log into their account and view historical workouts data. The prototype shows the intended user interface; however, time constraints restricted the amount of user interface polishing done. Users can view, add, edit, and delete workouts and view and edit their account data. ',
 									]}
 									extras={
-										<Col>
+										<Container>
 											<Row>
-												<h1>Prototype</h1>
+												<Col className='rnContainer'>
+													<h1>Prototype</h1>
+													<p>
+														View full screen prototype{' '}
+														<a href='https://www.figma.com/proto/WQ5DrKYANTxJIJr6Et2UrU/CS571-ReactNativeBeta?kind=&node-id=23%3A368&page-id=0%3A1&scaling=scale-down&starting-point-node-id=23%3A368&viewport=480%2C242%2C0.18'>
+															here
+														</a>
+														.
+													</p>
+												</Col>
+												<Col>
+													<iframe
+														width='800'
+														height='450'
+														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWQ5DrKYANTxJIJr6Et2UrU%2FCS571-ReactNativeBeta%3Fpage-id%3D0%253A1%26node-id%3D23%253A368%26viewport%3D480%252C242%252C0.18%26scaling%3Dscale-down%26starting-point-node-id%3D23%253A368'
+														allowfullscreen
+													></iframe>
+													<iframe width='800' height='450' src={rnFigmaDemo}></iframe>
+												</Col>
 											</Row>
+
 											<Row>
-												<iframe
-													width='800'
-													height='450'
-													src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWQ5DrKYANTxJIJr6Et2UrU%2FCS571-ReactNativeBeta%3Fpage-id%3D0%253A1%26node-id%3D23%253A368%26viewport%3D480%252C242%252C0.18%26scaling%3Dscale-down%26starting-point-node-id%3D23%253A368'
-													allowfullscreen
-												></iframe>
-												<iframe width='800' height='450' src={rnFigmaDemo}></iframe>
+												<Col className='rnContainer'>
+													<h1>Implementation</h1>
+												</Col>
+												<Col>
+													<iframe width='750' height='450' src={rnDemo} />
+												</Col>
 											</Row>
-											<Row>
-												<h1>Implementation</h1>
-											</Row>
-											<Row>
-												<iframe width='1920' height='750' src={rnDemo} />
-											</Row>
-										</Col>
+										</Container>
 									}
 								/>
 							)}
@@ -241,14 +326,14 @@ function App() {
 										'This project is a Dialogflow chatbot integrated into a store website. Using the chatbot, users can log into the website, ask questions about products and categories, navigate the website, and checkout. The chatbot parses natural language input and chooses the best output from pre-specified options.',
 									]}
 									extras={
-										<Col>
-											<Row>
+										<Row>
+											<Col className='dfContainer'>
 												<h1>Implementation</h1>
-											</Row>
-											<Row>
-												<iframe width='1920' height='750' src={dfDemo} />
-											</Row>
-										</Col>
+											</Col>
+											<Col>
+												<iframe width='800px' height='500px' src={dfDemo} />
+											</Col>
+										</Row>
 									}
 								/>
 							)}
@@ -267,20 +352,51 @@ function App() {
 										'Both of the following prototypes are built in Figma and are interactive. The first prototype is for a new video streaming app. It was built with feedback from real users gathered in user interviews. The second is a website for an online grocery delivering service and exemplifies the user flow for ordering groceries online. ',
 									]}
 									extras={
-										<Col>
-											<iframe
-												width='800'
-												height='450'
-												src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwzqDP1h3h0lLoNTOdIB8vl%2FCS570-CulturalProbe%3Fpage-id%3D0%253A1%26node-id%3D28%253A2%26starting-point-node-id%3D28%253A2'
-												allowfullscreen
-											></iframe>
-											<iframe
-												width='800'
-												height='450'
-												src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU5RQwonAfPai8a1MVHrq7o%2FInterim-Presentation%3Fpage-id%3D0%253A1%26node-id%3D86%253A1728%26starting-point-node-id%3D86%253A1728'
-												allowfullscreen
-											></iframe>
-										</Col>
+										<Container>
+											<Row>
+												<Col className='ipContainer'>
+													<h1>YouMax</h1>
+													<h4>Video streaming app</h4>
+													<p>
+														View full screen prototype{' '}
+														<a href='https://www.figma.com/proto/wzqDP1h3h0lLoNTOdIB8vl/CS570-CulturalProbe?kind=&node-id=28%3A2&page-id=0%3A1&starting-point-node-id=28%3A2'>
+															here
+														</a>
+														.
+													</p>
+												</Col>
+												<Col>
+													<iframe
+														width='800'
+														height='450'
+														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwzqDP1h3h0lLoNTOdIB8vl%2FCS570-CulturalProbe%3Fpage-id%3D0%253A1%26node-id%3D28%253A2%26starting-point-node-id%3D28%253A2'
+														allowfullscreen
+													></iframe>
+												</Col>
+											</Row>
+
+											<Row>
+												<Col className='ipContainer'>
+													<h1>Voodsel</h1>
+													<h4>Online grocery ordering service</h4>
+													<p>
+														View full screen prototype{' '}
+														<a href='https://www.figma.com/proto/U5RQwonAfPai8a1MVHrq7o/Interim-Presentation?kind=&node-id=86%3A1728&page-id=0%3A1&starting-point-node-id=86%3A1728'>
+															here
+														</a>
+														.
+													</p>
+												</Col>
+												<Col>
+													<iframe
+														width='800'
+														height='450'
+														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU5RQwonAfPai8a1MVHrq7o%2FInterim-Presentation%3Fpage-id%3D0%253A1%26node-id%3D86%253A1728%26starting-point-node-id%3D86%253A1728'
+														allowfullscreen
+													></iframe>
+												</Col>
+											</Row>
+										</Container>
 									}
 								/>
 							)}
