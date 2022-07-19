@@ -17,7 +17,7 @@ function Projects ()
     <Container>
 
       <Col>
-        <Row className="headerContainer"><h1>Fully Implemented Projects</h1></Row>
+        <Row className="headerContainer"><h1>Personal Projects</h1></Row>
         <Row>
           <a href="/projects/penguinworkouts"><ProjectMini icon={icon} name="Penguin Workouts" description="iOS App" /></a>
           <a href="/projects/lightyear"><ProjectMini icon={lightyearicon} name="Lightyear" description="iOS App" /></a>
