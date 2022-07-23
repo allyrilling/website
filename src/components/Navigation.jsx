@@ -8,10 +8,11 @@ function Navigation ( props )
   return (
     <Navbar collapseOnSelect expand="sm" bg="#242424" variant="dark">
       <Container>
-        <Navbar.Brand className="align-center" style={{ fontSize: '30px' }} href="Home"><img
-          alt=""
-          src={myIcon}
-        />{' '}
+        <Navbar.Brand className="align-center" style={{ fontSize: '30px' }} href="Home">
+          {/* <img
+            alt=""
+            src={myIcon}
+          />{' '} */}
           Ally Rilling</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
