@@ -1,13 +1,18 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
+import myIcon from "../images/mylogo.svg"
 
 function Navigation ( props )
 {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="#242424" variant="dark">
+    <Navbar collapseOnSelect expand="sm" bg="#242424" variant="dark">
       <Container>
-        <Navbar.Brand style={{ fontSize: '30px' }} href="Home">Ally Rilling</Navbar.Brand>
+        <Navbar.Brand className="align-center" style={{ fontSize: '30px' }} href="Home"><img
+          alt=""
+          src={myIcon}
+        />{' '}
+          Ally Rilling</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
