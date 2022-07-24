@@ -215,13 +215,13 @@ function App() {
 								<ProjectMaxi
 									title='React ɑ/β'
 									subtitle='CS571 Class Project'
-									link=''
+									link='https://github.com/CS571/react-beta-s22-allyrilling'
 									logo={gitHubIcon}
 									projectIcon={reactlogo}
 									aboutThe='About the Project'
 									class={'reactContainer'}
 									description={[
-										'This project is course managment app. The React application pulls course data from the UW-Madison course database and loads it into the interface. State is preserved across tabs and interactions are handled using JavaScript.',
+										'This project is course management app. The React application pulls course data from the UW-Madison course database and loads it into the interface. State is preserved across tabs and interactions are handled using JavaScript.',
 									]}
 									extras={
 										<Container>
@@ -265,7 +265,7 @@ function App() {
 								<ProjectMaxi
 									title='React Native ɑ/β'
 									subtitle='CS571 Class Project'
-									link=''
+									link='https://github.com/CS571/react-native-alpha-s22-allyrilling'
 									logo={gitHubIcon}
 									projectIcon={rnlogo}
 									aboutThe='About the Project'
