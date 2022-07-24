@@ -58,7 +58,7 @@ function App() {
 									logo={appStoreIcon}
 									projectIcon={icon}
 									aboutThe='About the App'
-									linkClass='privacyPolicyPenguin'
+									linkClass='linkPenguin'
 									class={'penguinContainer'}
 									description='Penguin Workouts is a workout app that allows users to create quick workouts from a range of exercises. Users can add their own exercises and choose the number of exercises in each workout. The app includes upper body, lower body, hips, and core exercises. Additionally, Penguin Workouts comes with nine beautiful themes.'
 									extras={
@@ -71,7 +71,7 @@ function App() {
 													<h2>v1.2</h2>
 													<p>
 														Download images{' '}
-														<a href={zip_1_2} download='PenguinWorkouts-1.2.zip'>
+														<a style={{ color: '#F2536E' }} href={zip_1_2} download='PenguinWorkouts-1.2.zip'>
 															here
 														</a>
 														.
@@ -83,7 +83,7 @@ function App() {
 													<h2>v1.1</h2>
 													<p>
 														Download images{' '}
-														<a href={zip_1_1} download='PenguinWorkouts-1.1.zip'>
+														<a style={{ color: '#F2536E' }} href={zip_1_1} download='PenguinWorkouts-1.1.zip'>
 															here
 														</a>
 														.
@@ -95,7 +95,7 @@ function App() {
 													<h2>v1.0</h2>
 													<p>
 														Download images{' '}
-														<a href={zip_1_0} download='PenguinWorkouts-1.0.zip'>
+														<a style={{ color: '#F2536E' }} href={zip_1_0} download='PenguinWorkouts-1.0.zip'>
 															here
 														</a>
 														.
@@ -181,7 +181,10 @@ function App() {
 														<h1>Prototype</h1>
 														<p>
 															View full screen prototype{' '}
-															<a href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'>
+															<a
+																style={{ color: '#F7DF1E' }}
+																href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'
+															>
 																here
 															</a>
 															.
@@ -233,7 +236,10 @@ function App() {
 													<h1>Prototype</h1>
 													<p>
 														View full screen prototype{' '}
-														<a href='https://www.figma.com/proto/rZWgf3fqn83YPhj2QrItiP/CS571-ReactBeta?embed_host=share&kind=&node-id=20%3A421&page-id=0%3A1&scaling=scale-down&starting-point-node-id=20%3A421'>
+														<a
+															style={{ color: '#53C1DE' }}
+															href='https://www.figma.com/proto/rZWgf3fqn83YPhj2QrItiP/CS571-ReactBeta?embed_host=share&kind=&node-id=20%3A421&page-id=0%3A1&scaling=scale-down&starting-point-node-id=20%3A421'
+														>
 															here
 														</a>
 														.
@@ -283,7 +289,10 @@ function App() {
 													<h1>Prototype</h1>
 													<p>
 														View full screen prototype{' '}
-														<a href='https://www.figma.com/proto/WQ5DrKYANTxJIJr6Et2UrU/CS571-ReactNativeBeta?kind=&node-id=23%3A368&page-id=0%3A1&scaling=scale-down&starting-point-node-id=23%3A368&viewport=480%2C242%2C0.18'>
+														<a
+															style={{ color: '#61DAFB' }}
+															href='https://www.figma.com/proto/WQ5DrKYANTxJIJr6Et2UrU/CS571-ReactNativeBeta?kind=&node-id=23%3A368&page-id=0%3A1&scaling=scale-down&starting-point-node-id=23%3A368&viewport=480%2C242%2C0.18'
+														>
 															here
 														</a>
 														.
@@ -363,7 +372,10 @@ function App() {
 													<h4>Video streaming app</h4>
 													<p>
 														View full screen prototype{' '}
-														<a href='https://www.figma.com/proto/wzqDP1h3h0lLoNTOdIB8vl/CS570-CulturalProbe?kind=&node-id=28%3A2&page-id=0%3A1&starting-point-node-id=28%3A2'>
+														<a
+															style={{ color: '#7EFFE0' }}
+															href='https://www.figma.com/proto/wzqDP1h3h0lLoNTOdIB8vl/CS570-CulturalProbe?kind=&node-id=28%3A2&page-id=0%3A1&starting-point-node-id=28%3A2'
+														>
 															here
 														</a>
 														.
@@ -384,7 +396,10 @@ function App() {
 													<h4>Online grocery ordering service</h4>
 													<p>
 														View full screen prototype{' '}
-														<a href='https://www.figma.com/proto/U5RQwonAfPai8a1MVHrq7o/Interim-Presentation?kind=&node-id=86%3A1728&page-id=0%3A1&starting-point-node-id=86%3A1728'>
+														<a
+															style={{ color: '#7EFFE0' }}
+															href='https://www.figma.com/proto/U5RQwonAfPai8a1MVHrq7o/Interim-Presentation?kind=&node-id=86%3A1728&page-id=0%3A1&starting-point-node-id=86%3A1728'
+														>
 															here
 														</a>
 														.
