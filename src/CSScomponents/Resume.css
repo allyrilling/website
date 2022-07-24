@@ -38,3 +38,23 @@
 .box {
     margin: 6px;
 }
+
+a:link {
+  text-decoration: none;
+  color: rgb(79, 126, 255);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(79, 126, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(79, 126, 255);
+}
+
+a:active {
+  text-decoration: underline;
+  color: rgb(79, 126, 255);
+}
