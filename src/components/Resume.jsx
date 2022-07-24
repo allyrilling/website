@@ -112,8 +112,8 @@ export default function Resume ()
           </Col>
           <Col>
             <ul>
-              <li>Created <a class="linked" href="AppDevelopment">Penguin Workouts</a> to be a pleasantly designed and user configurable workout app.</li>
-              <li>Built <a class="linked" href="AppDevelopment">Lightyear - Solar Clock</a> as a utility to monitor sunrise and sunset times based on location and calls to a third-party API.</li>
+              <li>Created <a className="resume" href="/projects/penguinworkouts">Penguin Workouts</a> to be a pleasantly designed and user configurable workout app.</li>
+              <li>Built <a className="resume" href="/projects/lightyear">Lightyear - Solar Clock</a> as a utility to monitor sunrise and sunset times based on location and calls to a third-party API.</li>
               <li>Designed and wrote the user interface for both apps using Apple’s SwiftUI.</li>
               <li>Wrote the backend logic for both apps in Apple’s Swift programming language.</li>
               <li>Created icons and marketing materials for both apps using Figma.</li>
@@ -235,8 +235,8 @@ export default function Resume ()
           <Col className="resumeECAandMoreColL">
             <Row className="resumeCategoryHeader"><h2>More</h2></Row>
             <Row className="resumeItemBody">
-              <Col>A feature on <a href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling">MacSparky blog.</a></Col>
-              <Col><a href={resumePDF} download="ARilling.pdf">Click here </a>to download resume.</Col>
+              <Col>A feature on <a className="resume" href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling">MacSparky blog.</a></Col>
+              <Col><a className="resume" href={resumePDF} download="ARilling.pdf">Click here </a>to download resume.</Col>
             </Row>
           </Col>
         </Row>

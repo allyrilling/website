@@ -39,22 +39,22 @@
     margin: 6px;
 }
 
-a:link {
+a.resume:link {
   text-decoration: none;
   color: rgb(79, 126, 255);
 }
 
-a:visited {
+a.resume:visited {
   text-decoration: none;
   color: rgb(79, 126, 255);
 }
 
-a:hover {
+a.resume:hover {
   text-decoration: underline;
   color: rgb(79, 126, 255);
 }
 
-a:active {
+a.resume:active {
   text-decoration: underline;
   color: rgb(79, 126, 255);
 }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import ProjectMaxi from './ProjectMaxi';
 
 export default class ProjectMini extends Component {
 	render() {
