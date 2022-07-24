@@ -55,6 +55,11 @@ h2 > a {
 }
 
 .imgStyle {
-    margin: 16px;
+    margin-right: 32px;
+    margin-top: 16px;
     width: 32px;
+}
+
+.linkContainer {
+    border: 2px solid #ab34f5;
 }
