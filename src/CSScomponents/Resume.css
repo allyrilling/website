@@ -34,3 +34,7 @@
 .linked {
     color: rgb(79, 126, 255);
 }
+
+.box {
+    margin: 6px;
+}

@@ -48,6 +48,7 @@ a:active {
 
 .lightyearIconPicture {
     height: 250px;
+    width: auto;
     /* padding: 10px; */
 }
 
@@ -56,7 +57,7 @@ a:active {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .titleContainer {
@@ -84,38 +85,17 @@ a:active {
     justify-content: center;
 }
 
-  /* .penguinContainer {
-    border: 2px solid #F2536E;
-    padding: 20px;
-    border-radius: 15px;
-    margin: 10px;
-  }
-
-   .lightyearContainer {
-    border: 2px solid #1D96FA;
-    padding: 20px;
-    border-radius: 15px;
-    margin: 10px;
-  }
-
-  .siteContainer {
-    border: 2px solid #E4B9FF;
-    padding: 20px;
-    border-radius: 15px;
-    margin: 10px;
-  } */
-
   p > a {
     color: #E4B9FF;
   }
 
   .headerContainer {
     border: 2px solid white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 6px;
     
 }
 

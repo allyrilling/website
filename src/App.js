@@ -63,7 +63,7 @@ function App() {
 									description='Penguin Workouts is a workout app that allows users to create quick workouts from a range of exercises. Users can add their own exercises and choose the number of exercises in each workout. The app includes upper body, lower body, hips, and core exercises. Additionally, Penguin Workouts comes with nine beautiful themes.'
 									extras={
 										<Container>
-											<Row className='penguinContainer'>
+											<Row style={{ marginTop: '6px', marginBottom: '6px' }} className='penguinContainer'>
 												<h1>Versions</h1>
 											</Row>
 											<Row>
@@ -79,7 +79,7 @@ function App() {
 													<img src={ss_home_1_2} width='300px'></img>
 												</Col>
 
-												<Col className='penguinContainer'>
+												<Col className='penguinContainer' style={{ marginLeft: '6px', marginRight: '6px' }}>
 													<h2>v1.1</h2>
 													<p>
 														Download images{' '}
@@ -174,35 +174,37 @@ function App() {
 									description={['The goal of this project was to create a webpage with JavaScript functionality and style it with Bootstrap CSS.']}
 									class={'jsContainer'}
 									extras={
-										<Container>
-											<Row>
-												<Col className='jsContainer'>
-													<h1>Prototype</h1>
-													<p>
-														View full screen prototype{' '}
-														<a href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'>
-															here
-														</a>
-														.
-													</p>
-												</Col>
-												<Col>
-													<iframe
-														width='800'
-														height='450'
-														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'
-														allowfullscreen
-													></iframe>
-												</Col>
-											</Row>
-											<Row>
-												<Col className='jsContainer'>
-													<h1>Implementation</h1>
-												</Col>
-												<Col>
-													<img src={jsImg} width='750'></img>
-												</Col>
-											</Row>
+										<Container style={{ padding: '0px' }}>
+											<Col>
+												<Row className='jsContainer'>
+													<Col>
+														<h1>Prototype</h1>
+														<p>
+															View full screen prototype{' '}
+															<a href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'>
+																here
+															</a>
+															.
+														</p>
+													</Col>
+													<Col>
+														<iframe
+															width='800'
+															height='450'
+															src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLydookNshs1dvt0unjOco6%2FCS571-JavaScript-Beta%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D339%252C362%252C0.34%26scaling%3Dscale-down'
+															allowfullscreen
+														></iframe>
+													</Col>
+												</Row>
+												<Row className='jsContainer'>
+													<Col>
+														<h1>Implementation</h1>
+													</Col>
+													<Col>
+														<img src={jsImg} width='750'></img>
+													</Col>
+												</Row>
+											</Col>
 										</Container>
 									}
 								/>
@@ -226,8 +228,8 @@ function App() {
 									]}
 									extras={
 										<Container>
-											<Row>
-												<Col className='reactContainer'>
+											<Row className='reactContainer'>
+												<Col>
 													<h1>Prototype</h1>
 													<p>
 														View full screen prototype{' '}
@@ -246,8 +248,8 @@ function App() {
 													></iframe>
 												</Col>
 											</Row>
-											<Row>
-												<Col className='reactContainer'>
+											<Row className='reactContainer'>
+												<Col>
 													<h1>Implementation</h1>
 												</Col>
 												<Col>
@@ -276,8 +278,8 @@ function App() {
 									]}
 									extras={
 										<Container>
-											<Row>
-												<Col className='rnContainer'>
+											<Row className='rnContainer'>
+												<Col>
 													<h1>Prototype</h1>
 													<p>
 														View full screen prototype{' '}
@@ -297,9 +299,8 @@ function App() {
 													<iframe width='800' height='450' src={rnFigmaDemo}></iframe>
 												</Col>
 											</Row>
-
-											<Row>
-												<Col className='rnContainer'>
+											<Row className='rnContainer'>
+												<Col>
 													<h1>Implementation</h1>
 												</Col>
 												<Col>
@@ -327,14 +328,16 @@ function App() {
 										'This project is a Dialogflow chatbot integrated into a store website. Using the chatbot, users can log into the website, ask questions about products and categories, navigate the website, and checkout. The chatbot parses natural language input and chooses the best output from pre-specified options.',
 									]}
 									extras={
-										<Row>
-											<Col className='dfContainer'>
-												<h1>Implementation</h1>
-											</Col>
-											<Col>
-												<iframe width='800px' height='500px' src={dfDemo} />
-											</Col>
-										</Row>
+										<Container>
+											<Row className='dfContainer'>
+												<Col>
+													<h1>Implementation</h1>
+												</Col>
+												<Col>
+													<iframe width='800px' height='500px' src={dfDemo} />
+												</Col>
+											</Row>
+										</Container>
 									}
 								/>
 							)}
@@ -354,8 +357,8 @@ function App() {
 									]}
 									extras={
 										<Container>
-											<Row>
-												<Col className='ipContainer'>
+											<Row className='ipContainer'>
+												<Col>
 													<h1>YouMax</h1>
 													<h4>Video streaming app</h4>
 													<p>
@@ -375,9 +378,8 @@ function App() {
 													></iframe>
 												</Col>
 											</Row>
-
-											<Row>
-												<Col className='ipContainer'>
+											<Row className='ipContainer'>
+												<Col>
 													<h1>Voodsel</h1>
 													<h4>Online grocery ordering service</h4>
 													<p>

@@ -5,7 +5,7 @@
     justify-content: right;
 
     height: 350px;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 50%;
 }
 
@@ -17,7 +17,7 @@
     justify-content: center;
 
     height: 200px;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 50%;
     }
 }
@@ -30,8 +30,9 @@
 
     border: 2px solid #ab34f5;
     border-radius: 15px;
-    padding: 10px;
-    margin: 5px;
+
+    padding: 20px;
+    margin: 6px;
 }
 
 .boxCol {
@@ -42,8 +43,8 @@
 
     border: 2px solid #ab34f5;
     border-radius: 15px;
-    padding: 10px;
-    margin: 5px;
+    /* padding: 10px; */
+    /* margin: 5px; */
 }
 
 .linkText {
@@ -61,5 +62,5 @@ h2 > a {
 }
 
 .linkContainer {
-    border: 2px solid #ab34f5;
+    /* border: 2px solid #ab34f5; */
 }
