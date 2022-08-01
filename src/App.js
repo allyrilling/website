@@ -120,7 +120,7 @@ function App() {
 									logo={appStoreIcon}
 									projectIcon={lightyearicon}
 									aboutThe='About the App'
-									linkClass='privacyPolicyLightyear'
+									linkClass='linkLightyear'
 									class={'lightyearContainer'}
 									description={[
 										'Lightyear is a utility that visualizes the current sunrise, sunset, and daylight hours. It shows the amount of daylight gained or lost over the last day, week, and month. Lightyear uses data from the ',

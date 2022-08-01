@@ -17,6 +17,15 @@
     color: #1D96FA;
 }
 
+/* .projectMini {
+  width: auto;
+} */
+
+.projectMini:hover {
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
 a:link {
   text-decoration: none;
   color: white;
@@ -92,6 +101,14 @@ a:active {
   .headerContainer {
     border: 2px solid white;
     border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 6px;
+    
+}
+
+.rowContainer {
     padding-left: 10px;
     padding-top: 6px;
     padding-bottom: 6px;

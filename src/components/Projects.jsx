@@ -18,10 +18,10 @@ function Projects ()
 
       <Col>
         <Row className="headerContainer"><h1>Personal Projects</h1></Row>
-        <Row>
-          <Col><a href="/projects/penguinworkouts"><ProjectMini icon={icon} name="Penguin Workouts" description="iOS App" /></a></Col>
-          <Col><a href="/projects/lightyear"><ProjectMini icon={lightyearicon} name="Lightyear" description="iOS App" /></a></Col>
-          <Col><a href="/projects/site"><ProjectMini icon={favicon} name="This Site" description="Portfolio Website" /></a></Col>
+        <Row className="rowContainer">
+          <Col className='projectMini'><a href="/projects/penguinworkouts" ><ProjectMini icon={icon} name="Penguin Workouts" description="iOS App" /></a></Col>
+          <Col className='projectMini'><a href="/projects/lightyear"><ProjectMini icon={lightyearicon} name="Lightyear" description="iOS App" /></a></Col>
+          <Col className='projectMini'><a href="/projects/site"><ProjectMini icon={favicon} name="This Site" description="Portfolio Website" /></a></Col>
         </Row>
 
         {/* <Row className="headerContainer"><h1>Designs and Prototypes</h1></Row>
@@ -31,16 +31,16 @@ function Projects ()
         </Row> */}
 
         <Row className="headerContainer"><h1>School Projects</h1></Row>
-        <Row>
-          <Col><a href="/projects/javascript"><ProjectMini icon={jslogo} name="JS ɑ/β" description="CS571 Class Project" /></a></Col>
-          <Col><a href="/projects/react"><ProjectMini icon={reactlogo} name="React ɑ/β" description="CS571 Class Project" /></a></Col>
-          <Col><a href="/projects/reactnative"><ProjectMini icon={rnlogo} name="React Native ɑ/β" description="CS571 Class Project" /></a></Col>
-          <Col><a href="/projects/dialogflow"> <ProjectMini icon={dialogflowlogo} name="Dialogflow" description="CS571 Class Project" /></a></Col>
-          <Col><a href="/projects/cs570"><ProjectMini icon={iplogo} name="High Fidelity Prototypes" description="CS570 Class Projects" /></a></Col>
+        <Row className="rowContainer">
+          <Col className='projectMini'><a href="/projects/javascript"><ProjectMini icon={jslogo} name="JS ɑ/β" description="CS571 Class Project" /></a></Col>
+          <Col className='projectMini'><a href="/projects/react"><ProjectMini icon={reactlogo} name="React ɑ/β" description="CS571 Class Project" /></a></Col>
+          <Col className='projectMini'><a href="/projects/reactnative"><ProjectMini icon={rnlogo} name="React Native ɑ/β" description="CS571 Class Project" /></a></Col>
+          <Col className='projectMini'><a href="/projects/dialogflow"> <ProjectMini icon={dialogflowlogo} name="Dialogflow" description="CS571 Class Project" /></a></Col>
+          <Col className='projectMini'><a href="/projects/cs570"><ProjectMini icon={iplogo} name="High Fidelity Prototypes" description="CS570 Class Projects" /></a></Col>
         </Row>
       </Col>
 
-    </Container>
+    </Container >
 
 
   );
