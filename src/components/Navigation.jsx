@@ -3,6 +3,8 @@ import { withRouter } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import myIcon from "../images/mylogo.svg"
 
+// TODO: convert to an rcc so that i can use props to preserve state of which page we are on
+
 function Navigation ( props )
 {
   return (
@@ -17,9 +19,9 @@ function Navigation ( props )
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="Home">Home</Nav.Link>
-            <Nav.Link href="Resume">Resume</Nav.Link>
-            <Nav.Link href="Projects">Projects</Nav.Link>
+            <Nav.Link href="Home" className="linkHover">Home</Nav.Link>
+            <Nav.Link href="Resume" className="linkHover">Resume</Nav.Link>
+            <Nav.Link href="Projects" className="linkHover">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

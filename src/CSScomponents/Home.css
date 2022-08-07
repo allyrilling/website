@@ -55,12 +55,17 @@ h2 > a {
     color: #ab34f5;
 }
 
-.imgStyle {
-    margin-right: 32px;
-    margin-top: 16px;
-    width: 32px;
+.linkContainer {
+    width: 250px;
 }
 
-.linkContainer {
-    /* border: 2px solid #ab34f5; */
+.imgStyle {
+    padding: 10px;
+    width: 52px;
 }
+
+.imgStyle:hover {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+

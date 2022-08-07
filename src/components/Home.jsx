@@ -23,18 +23,25 @@ export default function Home ()
                 <Col><img className="mePictureCol" src={me} alt="Ally" /></Col>
                 <Col>
                     <h1>Hello. My name is Ally.</h1>
-                    <p>I am a student at the University of Wisconsin - Madison majoring in computer science and finance. I am interested in front end development, UI/UX design, and financial technology.</p>
-                    <Col className='linkContainer'>
-                        <a href='https://github.com/allyrilling'>
-                            <img className='imgStyle' src={github}></img>
-                        </a>
-                        <a href='https://www.linkedin.com/in/allyrilling/'>
-                            <img className='imgStyle' src={linkedin}></img>
-                        </a>
-                        <Mailto email='anrilling@wisc.edu' obfuscate={true}>
-                            <img className='imgStyle' src={mail}></img>
-                        </Mailto>
-                    </Col>
+                    <p>I am a computer science and finance double major at the University of Wisconsin - Madison interested in financial software development. I also enjoy designing, prototyping, and building user interfaces and experiences.</p>
+                    <Row className='linkContainer'>
+                        <Col className='iconCol'>
+                            <a href='https://github.com/allyrilling'>
+                                <img className='imgStyle' src={github}></img>
+                            </a>
+                        </Col>
+                        <Col className='iconCol'>
+                            <a href='https://www.linkedin.com/in/allyrilling/' >
+                                <img className='imgStyle' src={linkedin}></img>
+                            </a>
+                        </Col>
+                        <Col className='iconCol'>
+                            <Mailto email='anrilling@wisc.edu' obfuscate={true} >
+                                <img className='imgStyle' src={mail}></img>
+                            </Mailto>
+                        </Col>
+
+                    </Row>
                 </Col>
             </Row>
         </Container>

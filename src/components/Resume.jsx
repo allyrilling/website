@@ -7,16 +7,14 @@ export default function Resume ()
 {
   return (
     <Container>
-      {/* <Row><h1 className="globalPageTitle">Resume</h1></Row> */}
-
       <Col className="box">
-        <Row className="resumeCategoryHeader"><h2>Education</h2></Row>
+        <Row className="resumeCategoryHeader" style={{ borderColor: "red" }}><h2>Education</h2></Row>
 
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "red" }}  >
           <Col>
             <Row><h3 className="resumeTitleText">University of Wisconsin — Madison</h3></Row>
             <Row><h4 className="resumeSubtitleText">Graduation December 2023</h4></Row>
-            <Row><h4 className="resumeSubtitleText">Majors: Computer Science (BS) and Finance (BS)</h4></Row>
+            <Row><h4 className="resumeSubtitleText">Majors: Computer Science (B.S.) and Finance (B.S.)</h4></Row>
           </Col>
           <Col>
             <ul>
@@ -47,22 +45,23 @@ export default function Resume ()
           </Col>
         </Row>
 
-        <Row className="resumeCategoryHeader"><h2>Experience</h2></Row>
+        <Row className="resumeCategoryHeader" style={{ borderColor: "aqua" }}><h2>Experience</h2></Row>
 
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
             <Row><h3 className="resumeTitleText">Technology Intern, Charles Schwab</h3></Row>
-            <Row><h4 className="resumeSubtitleText">June 2022 - Present</h4></Row>
+            <Row><h4 className="resumeSubtitleText">June 2022 - August 2022</h4></Row>
           </Col>
-          {/* <Col>
-          <ul>
-            <li>Assisted customers in troubleshooting a wide variety of hardware and software issues with their iPhones, iPads, Apple Watches, and AirPods.</li>
-            <li>Educated customers during appointments on best practices and helpful tips to improve the experience of using their Apple devices.</li>
-          </ul>
-        </Col> */}
+          <Col>
+            <ul>
+              <li>Architected and implemented the backend (in .NET and C#) for a new options expiration pin risk monitoring feature that created alerts for customer accounts with risky options spreads.</li>
+              <li>Utilized knowledge of options to gather requirements from business users for the new options pin risk alerts.</li>
+              <li>Developed a workflow in PEGA that parsed the backend pin risk alert output and displayed alert data to end users.</li>
+            </ul>
+          </Col>
         </Row>
 
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
             <Row><h3 className="resumeTitleText">Teaching Assistant, Professor Sebastien Plante</h3></Row>
             <Row><h4 className="resumeSubtitleText">January 2022 - May 2022</h4></Row>
@@ -76,7 +75,7 @@ export default function Resume ()
           </Col>
         </Row>
 
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
             <Row><h3 className="resumeTitleText">Technical Specialist, Apple</h3></Row>
             <Row><h4 className="resumeSubtitleText">September 2021 - December 2021</h4></Row>
@@ -89,7 +88,7 @@ export default function Resume ()
           </Col>
         </Row>
 
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
             <Row><h3 className="resumeTitleText">Technology Intern, Wells Fargo</h3></Row>
             <Row><h4 className="resumeSubtitleText">June 2021 - August 2021</h4></Row>
@@ -105,15 +104,15 @@ export default function Resume ()
           </Col>
         </Row>
 
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
             <Row><h3 className="resumeTitleText">iOS Developer</h3></Row>
             <Row><h4 className="resumeSubtitleText">October 2020 - Present</h4></Row>
           </Col>
           <Col>
             <ul>
-              <li>Created <a className="resume" href="/projects/penguinworkouts">Penguin Workouts</a> to be a pleasantly designed and user configurable workout app.</li>
-              <li>Built <a className="resume" href="/projects/lightyear">Lightyear - Solar Clock</a> as a utility to monitor sunrise and sunset times based on location and calls to a third-party API.</li>
+              <li>Created <a className="resume" href="/projects/penguinworkouts" style={{ color: 'aqua' }}>Penguin Workouts</a> to be a pleasantly designed and user configurable workout app.</li>
+              <li>Built <a className="resume" href="/projects/lightyear" style={{ color: 'aqua' }}>Lightyear - Solar Clock</a> as a utility to monitor sunrise and sunset times based on location and calls to a third-party API.</li>
               <li>Designed and wrote the user interface for both apps using Apple’s SwiftUI.</li>
               <li>Wrote the backend logic for both apps in Apple’s Swift programming language.</li>
               <li>Created icons and marketing materials for both apps using Figma.</li>
@@ -121,21 +120,7 @@ export default function Resume ()
           </Col>
         </Row>
 
-        {/* <Row className="resumeItemBody">
-        <Col>
-          <Row><h3 className="resumeTitleText">iOS App Developer, Penguin Workouts</h3></Row>
-          <Row><h4 className="resumeSubtitleText">October 2020 - Present</h4></Row>
-        </Col>
-        <Col>
-          <ul>
-            <li>Shipped version 1.1 with entirely new UI design.</li>
-            <li>Used Apple’s Swift programming language to build and design a workout app for the iPhone.</li>
-            <li>See more about Penguin Workouts <a href="AppDevelopment">here.</a></li>
-          </ul>
-        </Col>
-      </Row> */}
-
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
             <Row><h3 className="resumeTitleText">Administrative Assistant, Health In Balance Physical Therapy</h3></Row>
             <Row><h4 className="resumeSubtitleText">June 2019 - January 2021</h4></Row>
@@ -145,7 +130,7 @@ export default function Resume ()
               <li>Organized company server by creating and implementing a new hierarchical file structure.</li>
               <li>Greeted patients, scheduled appointments and enrolled new patients in the patient data management system.</li>
               <li>Created Excel spreadsheets to log statistics and redesigned patient forms to streamline information processing.</li>
-              <li>Assisted co-workers in adoption of new patient managment system.</li>
+              <li>Assisted co-workers in adoption of new patient management system.</li>
             </ul>
           </Col>
         </Row>
@@ -192,15 +177,16 @@ export default function Resume ()
         </Col>
       </Row> */}
 
-        <Row className="resumeCategoryHeader"><h2>Skills and Certifications</h2></Row>
+        <Row className="resumeCategoryHeader" style={{ borderColor: "rgb(79, 126, 255)" }}><h2>Skills and Certifications</h2></Row>
 
-        <Row className="resumeItemBody">
+        <Row className="resumeItemBody" style={{ borderColor: "rgb(79, 126, 255)" }}>
           <Col>
             <h3>Programming Languages</h3>
             <ul>
               <li>Java</li>
               <li>Python</li>
               <li>JavaScript / HTML / CSS</li>
+              <li>C# / .NET</li>
               <li>Swift / SwiftUI</li>
               <li>C / C++</li>
             </ul>
@@ -210,11 +196,10 @@ export default function Resume ()
             <h3>Software Proficiencies</h3>
             <ul>
               <li>Figma</li>
-              <li>Microsoft: Word, Excel, PowerPoint</li>
-              <li>G Suite: Docs, Sheets, Slides, Sites</li>
-              <li>iWork: Pages, Keynote, Numbers</li>
-              <li>IDEs: JetBrains IDEs, Xcode, Eclipse, VS Code</li>
-              <li>Git and GitHub</li>
+              <li>Git (GitHub and Bitbucket)</li>
+              <li>Jira</li>
+              <li>IDEs: Visual Studio, JetBrains IDEs, Xcode, Eclipse, VS Code</li>
+              <li>Excel / Powerpoint</li>
             </ul>
           </Col>
 
@@ -229,14 +214,14 @@ export default function Resume ()
 
         <Row>
           <Col className="resumeECAandMoreColR">
-            <Row className="resumeCategoryHeader"><h2>Extra-Curricular Activities</h2></Row>
-            <Row className="resumeItemBody"><h3 className="resumeSubtitleText">UW - Madison Track Club | September 2019 - Present</h3></Row>
+            <Row className="resumeCategoryHeader" style={{ borderColor: 'lightgreen' }}><h2>Extra-Curricular Activities</h2></Row>
+            <Row className="resumeItemBody" style={{ borderColor: 'lightgreen' }}><h3 className="resumeSubtitleText">UW - Madison Track Club | September 2019 - Present</h3></Row>
           </Col>
           <Col className="resumeECAandMoreColL">
-            <Row className="resumeCategoryHeader"><h2>More</h2></Row>
-            <Row className="resumeItemBody">
-              <Col>A feature on <a className="resume" href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling">MacSparky blog.</a></Col>
-              <Col><a className="resume" href={resumePDF} download="ARilling.pdf">Click here </a>to download resume.</Col>
+            <Row className="resumeCategoryHeader" style={{ borderColor: 'orange' }}><h2>More</h2></Row>
+            <Row className="resumeItemBody" style={{ borderColor: 'orange' }}>
+              <Col>Click <a className="resume" href={resumePDF} download="ARilling.pdf" style={{ color: 'orange' }}>here</a> to download resume.</Col>
+              <Col>A feature on <a className="resume" href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling" style={{ color: 'orange' }}>MacSparky blog</a>.</Col>
             </Row>
           </Col>
         </Row>

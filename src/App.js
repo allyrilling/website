@@ -1,11 +1,12 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Row, Col, Container, Nav, Navbar } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Navigation from './components/Navigation';
+import Nav from './components/Nav';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
