@@ -54,9 +54,9 @@ export default function Resume ()
           </Col>
           <Col>
             <ul>
-              <li>Architected and implemented the backend (in .NET and C#) for a new options expiration pin risk monitoring feature that created alerts for customer accounts with risky options spreads.</li>
-              <li>Utilized knowledge of options to gather requirements from business users for the new options pin risk alerts.</li>
-              <li>Developed a workflow in PEGA that parsed the backend pin risk alert output and displayed alert data to end users.</li>
+              <li>Architected and implemented (in .NET and C#) the backend for a new options expiration assignment risk monitoring feature that created alerts for customer accounts with risky options spreads.</li>
+              <li>Utilized knowledge of options to gather requirements from business users for the new options assignment risk alerts.</li>
+              <li>Developed a workflow in PEGA that parsed the backend assignment risk alert output and displayed alert data to end users.</li>
             </ul>
           </Col>
         </Row>
@@ -96,9 +96,9 @@ export default function Resume ()
           <Col>
             <ul>
               <li>Utilized Selenium to write over 20 UI automation test cases for two different webpages. </li>
-              <li>Mapped elements of the webpage to be tested to variables in code using Xpaths so that their attributes could be validated.</li>
+              <li>Mapped elements of webpages to variables in code using Xpaths so that their attributes could be validated.</li>
               <li>Created a workflow for scanning and validating the contents of auto-generated PDFs.</li>
-              <li>Collaborated with a group of six interns in other lines of business to create a presentation about intern networking opportunities.</li>
+              <li>Collaborated with six interns in other lines of business to create a presentation about intern networking opportunities.</li>
               <li>Worked in an Agile environment and participated in Scrum ceremonies on two different teams.</li>
             </ul>
           </Col>

@@ -33,6 +33,7 @@ import ss_home_1_2 from './images/screenshots-1.2/home.png';
 import zip_1_0 from './files/screenshots-1.0.zip';
 import zip_1_1 from './files/screenshots-1.1.zip';
 import zip_1_2 from './files/screenshots-1.2.zip';
+import lightyeardemo from './files/lightyeardemo.mp4';
 
 function App() {
 	return (
@@ -131,6 +132,18 @@ function App() {
 										</a>,
 										' API.',
 									]}
+									extras={
+										<Container>
+											<Row className='lightyearContainer'>
+												<Col>
+													<h1>Implementation</h1>
+												</Col>
+												<Col>
+													<iframe width='750' height='450' src={lightyeardemo} />
+												</Col>
+											</Row>
+										</Container>
+									}
 								/>
 							)}
 						/>
