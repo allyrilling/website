@@ -14,6 +14,7 @@ import PageNotFound from './components/PageNotFound';
 import ProjectMaxi from './components/ProjectMaxi';
 import icon from './images/penguinicon.png';
 import favicon from './images/mylogo.svg';
+import ovlogo from './images/ovLogo.png';
 import jslogo from './images/jslogo.svg';
 import reactlogo from './images/reactlogo.svg';
 import rnlogo from './images/rnlogo.svg';
@@ -126,7 +127,7 @@ function App() {
 									class={'lightyearContainer'}
 									description={[
 										'Lightyear is a utility that visualizes the current sunrise, sunset, and daylight hours. It shows the amount of daylight gained or lost over the last day, week, and month. Lightyear uses data from the ',
-										<a href=' https://sunrise-sunset.org' className='privacyPolicyLightyear'>
+										<a href='https://sunrise-sunset.org' className='privacyPolicyLightyear'>
 											{' '}
 											sunrise-sunset.org{' '}
 										</a>,
@@ -144,6 +145,28 @@ function App() {
 											</Row>
 										</Container>
 									}
+								/>
+							)}
+						/>
+						<Route
+							path='/projects/options-visualizer'
+							exact
+							component={() => (
+								<ProjectMaxi
+									title='Options Visualizer'
+									subtitle={
+										<a href='https://options-visualizer.web.app'>
+											<h3 className='linkOV'>Click here to visit the site.</h3>
+										</a>
+									}
+									link='https://github.com/allyrilling/options-visualizer'
+									logo={gitHubIcon}
+									projectIcon={ovlogo}
+									aboutThe='About the Site'
+									class={'ovContainer'}
+									description={[
+										'Options Visualizer is a tool to visualize the payoff graphs of different options spreads. It also features graphs of popular options spreads. The goal of this project was to improve upon the Excel sheet my Financial Derivatives professor used in class.',
+									]}
 								/>
 							)}
 						/>

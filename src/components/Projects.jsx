@@ -3,6 +3,7 @@ import React from "react";
 import { Row, Col, Container, Nav, Navbar } from "react-bootstrap"
 import icon from "../images/penguinicon.png"
 import favicon from "../images/mylogo.svg"
+import ovLogo from "../images/ovLogo.png"
 import jslogo from "../images/jslogo.svg"
 import reactlogo from "../images/reactlogo.svg"
 import rnlogo from "../images/rnlogo.svg"
@@ -21,6 +22,7 @@ function Projects ()
         <Row className="rowContainer">
           <Col className='projectMini'><a href="/projects/penguinworkouts" ><ProjectMini icon={icon} name="Penguin Workouts" description="iOS App" /></a></Col>
           <Col className='projectMini'><a href="/projects/lightyear"><ProjectMini icon={lightyearicon} name="Lightyear" description="iOS App" /></a></Col>
+          <Col className='projectMini'><a href="/projects/options-visualizer"><ProjectMini icon={ovLogo} name="Options Visualizer" description="Website" /></a></Col>
           <Col className='projectMini'><a href="/projects/site"><ProjectMini icon={favicon} name="This Site" description="Portfolio Website" /></a></Col>
         </Row>
 
