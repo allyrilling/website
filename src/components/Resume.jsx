@@ -20,6 +20,8 @@ export default function Resume ()
             <ul>
               <li>Relevant Business Coursework</li>
               <ul>
+                <li>Derivative Securities</li>
+                <li>Asset Pricing and Leverage</li>
                 <li>Corporate Finance</li>
                 <li>Investment Theory, Financial Markets and Economic Activity</li>
                 <li>Introduction to Finance, Financial Reporting I</li>
@@ -34,6 +36,8 @@ export default function Resume ()
               <li>Relevant Computer Science Coursework</li>
               <ul>
                 <li>Building User Interfaces</li>
+                <li>Computer Graphics</li>
+                <li>Theory of Programming Language Design</li>
                 <li>Introduction to Human Computer Interaction</li>
                 <li>Programming I, II & III (in Java)</li>
                 <li>Algorithms</li>
@@ -49,7 +53,7 @@ export default function Resume ()
 
         <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
-            <Row><h3 className="resumeTitleText">Technology Intern, Charles Schwab</h3></Row>
+            <Row><h3 className="resumeTitleText">Software Engineering Intern, Charles Schwab</h3></Row>
             <Row><h4 className="resumeSubtitleText">June 2022 - August 2022</h4></Row>
           </Col>
           <Col>
@@ -77,20 +81,21 @@ export default function Resume ()
 
         <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
-            <Row><h3 className="resumeTitleText">Technical Specialist, Apple</h3></Row>
-            <Row><h4 className="resumeSubtitleText">September 2021 - December 2021</h4></Row>
+            <Row><h3 className="resumeTitleText">Personal Projects</h3></Row>
+            <Row><h4 className="resumeSubtitleText">October 2020 - Present</h4></Row>
           </Col>
           <Col>
             <ul>
-              <li>Assisted customers in troubleshooting a wide variety of hardware and software issues with their iPhones, iPads, Apple Watches, and AirPods.</li>
-              <li>Educated customers during appointments on best practices and helpful tips to improve the experience of using their Apple devices.</li>
+              <li>Used ReactJS to build <a className="resume" href="/projects/options-visualizer" style={{ color: 'aqua' }}>Options Visualizer</a>, a website that visualizes options spreads and allows users to input custom spreads.</li>
+              <li>Created <a className="resume" href="/projects/penguinworkouts" style={{ color: 'aqua' }}>Penguin Workouts</a>, a pleasantly designed and user configurable workout app on iOS built with Swift and SwiftUI.</li>
+              <li>Built <a className="resume" href="/projects/lightyear" style={{ color: 'aqua' }}>Lightyear - Solar Clock</a>, an iOS app that monitors sunrise and sunset times based on location and data from a third-party API.</li>
             </ul>
           </Col>
         </Row>
 
         <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
-            <Row><h3 className="resumeTitleText">Technology Intern, Wells Fargo</h3></Row>
+            <Row><h3 className="resumeTitleText">Software Engineering Intern, Wells Fargo</h3></Row>
             <Row><h4 className="resumeSubtitleText">June 2021 - August 2021</h4></Row>
           </Col>
           <Col>
@@ -106,16 +111,13 @@ export default function Resume ()
 
         <Row className="resumeItemBody" style={{ borderColor: "aqua" }}>
           <Col>
-            <Row><h3 className="resumeTitleText">iOS Developer</h3></Row>
-            <Row><h4 className="resumeSubtitleText">October 2020 - Present</h4></Row>
+            <Row><h3 className="resumeTitleText">Technical Specialist, Apple</h3></Row>
+            <Row><h4 className="resumeSubtitleText">September 2021 - December 2021</h4></Row>
           </Col>
           <Col>
             <ul>
-              <li>Created <a className="resume" href="/projects/penguinworkouts" style={{ color: 'aqua' }}>Penguin Workouts</a> to be a pleasantly designed and user configurable workout app.</li>
-              <li>Built <a className="resume" href="/projects/lightyear" style={{ color: 'aqua' }}>Lightyear - Solar Clock</a> as a utility to monitor sunrise and sunset times based on location and calls to a third-party API.</li>
-              <li>Designed and wrote the user interface for both apps using Apple’s SwiftUI.</li>
-              <li>Wrote the backend logic for both apps in Apple’s Swift programming language.</li>
-              <li>Created icons and marketing materials for both apps using Figma.</li>
+              <li>Assisted customers in troubleshooting a wide variety of hardware and software issues with their iPhones, iPads, Apple Watches, and AirPods.</li>
+              <li>Educated customers during appointments on best practices and helpful tips to improve the experience of using their Apple devices.</li>
             </ul>
           </Col>
         </Row>
@@ -184,11 +186,13 @@ export default function Resume ()
             <h3>Programming Languages</h3>
             <ul>
               <li>Java</li>
-              <li>Python</li>
-              <li>JavaScript / HTML / CSS</li>
+              <li>JavaScript</li>
               <li>C# / .NET</li>
+              <li>Python</li>
+              <li>HTML / CSS</li>
               <li>Swift / SwiftUI</li>
               <li>C / C++</li>
+              <li>Haskell</li>
             </ul>
           </Col>
 
@@ -221,7 +225,7 @@ export default function Resume ()
             <Row className="resumeCategoryHeader" style={{ borderColor: 'orange' }}><h2>More</h2></Row>
             <Row className="resumeItemBody" style={{ borderColor: 'orange' }}>
               <Col>Click <a className="resume" href={resumePDF} download="ARilling.pdf" style={{ color: 'orange' }}>here</a> to download resume.</Col>
-              <Col>A feature on <a className="resume" href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling" style={{ color: 'orange' }}>MacSparky blog</a>.</Col>
+              {/* <Col>A feature on <a className="resume" href="https://www.macsparky.com/blog/2020/3/home-screens-ally-rilling" style={{ color: 'orange' }}>MacSparky blog</a>.</Col> */}
             </Row>
           </Col>
         </Row>

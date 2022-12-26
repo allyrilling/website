@@ -55,7 +55,6 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='Penguin Workouts'
-									subtitle='For every fitness level.'
 									showPrivacyPolicy={true}
 									link='https://apps.apple.com/us/app/penguin-workouts/id1534463056?itsct=apps_box&amp;itscg=30200'
 									logo={appStoreIcon}
@@ -64,8 +63,15 @@ function App() {
 									linkClass='linkPenguin'
 									class={'penguinContainer'}
 									description='Penguin Workouts is a workout app that allows users to create quick workouts from a range of exercises. Users can add their own exercises and choose the number of exercises in each workout. The app includes upper body, lower body, hips, and core exercises. Additionally, Penguin Workouts comes with nine beautiful themes.'
+									technologies={
+										<ul>
+											<li>Swift: backend and logic</li>
+											<li>SwiftUI: frontend</li>
+											<li>Figma: design and marketing materials</li>
+										</ul>
+									}
 									extras={
-										<Container>
+										<Col>
 											<Row style={{ marginTop: '6px', marginBottom: '6px' }} className='penguinContainer'>
 												<h1>Versions</h1>
 											</Row>
@@ -106,7 +112,7 @@ function App() {
 													<img src={ss_home_1_0} width='200px'></img>
 												</Col>
 											</Row>
-										</Container>
+										</Col>
 									}
 								/>
 							)}
@@ -117,7 +123,6 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='Lightyear'
-									subtitle='Solar Stats.'
 									showPrivacyPolicy={true}
 									link='https://apps.apple.com/us/app/lightyear-solar-clock/id1580773908'
 									logo={appStoreIcon}
@@ -127,23 +132,35 @@ function App() {
 									class={'lightyearContainer'}
 									description={[
 										'Lightyear is a utility that visualizes the current sunrise, sunset, and daylight hours. It shows the amount of daylight gained or lost over the last day, week, and month. Lightyear uses data from the ',
-										<a href='https://sunrise-sunset.org' className='privacyPolicyLightyear'>
+										<a href='https://sunrise-sunset.org' style={{ color: '#1D96FA' }}>
 											{' '}
 											sunrise-sunset.org{' '}
 										</a>,
 										' API.',
 									]}
+									technologies={
+										<ul>
+											<li>Swift: backend and logic</li>
+											<li>SwiftUI: frontend</li>
+											<li>
+												<a href='https://sunrise-sunset.org' style={{ color: '#1D96FA' }}>
+													{' '}
+													sunrise-sunset.org{' '}
+												</a>
+												API: data source
+											</li>
+											<li>Figma: design and marketing materials</li>
+										</ul>
+									}
 									extras={
-										<Container>
-											<Row className='lightyearContainer'>
-												<Col>
-													<h1>Implementation</h1>
-												</Col>
-												<Col>
-													<iframe width='750' height='450' src={lightyeardemo} />
-												</Col>
+										<Col className='lightyearContainer'>
+											<Row>
+												<h1>Implementation</h1>
 											</Row>
-										</Container>
+											<Row>
+												<iframe width='750' height='450' src={lightyeardemo} />
+											</Row>
+										</Col>
 									}
 								/>
 							)}
@@ -167,6 +184,29 @@ function App() {
 									description={[
 										'Options Visualizer is a tool to visualize the payoff graphs of different options spreads. It also features graphs of popular options spreads. The goal of this project was to improve upon the Excel sheet my Financial Derivatives professor used in class.',
 									]}
+									technologies={
+										<ul>
+											<li>JavaScript: backend</li>
+											<li>React-Bootstrap: frontend</li>
+											<li>ReactJS</li>
+											<li>Firebase: hosting</li>
+											<li>Figma: design and icons</li>
+										</ul>
+									}
+									extras={
+										<Col className='ovContainer'>
+											<Row>
+												<h1>
+													Click{' '}
+													<a href='https://options-visualizer.web.app' style={{ color: '#fa1d1d' }}>
+														here
+													</a>{' '}
+													to visit the site.
+												</h1>
+											</Row>
+											<Row></Row>
+										</Col>
+									}
 								/>
 							)}
 						/>
@@ -176,24 +216,23 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='This Site'
-									subtitle='Portfolio'
 									link='https://github.com/allyrilling/website'
 									logo={gitHubIcon}
 									projectIcon={favicon}
 									aboutThe='About the Site'
 									class={'siteContainer'}
-									description={[
-										<p>I built this site using...</p>,
+									description={
+										'This is my personal portfolio website. Here you can find links to my GitHub and LinkedIn, view and download my resume, see my projects, and email me. Thanks for visiting!'
+									}
+									technologies={
 										<ul>
+											<li>JavaScript: backend</li>
+											<li>React-Bootstrap: frontend</li>
 											<li>ReactJS</li>
-											<li>React-Bootstrap</li>
-											<li>HTML</li>
-											<li>CSS</li>
-										</ul>,
-										<p>
-											It is hosted on Firebase and available on <a href='https://github.com/allyrilling'>GitHub</a>. The favicon was made in Figma.
-										</p>,
-									]}
+											<li>Firebase: hosting</li>
+											<li>Figma: design and icons</li>
+										</ul>
+									}
 								/>
 							)}
 						/>
@@ -203,15 +242,21 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='JavaScript ɑ/β'
-									subtitle='CS571 Class Project'
 									link='https://github.com/CS571/js-beta-s22-allyrilling'
 									logo={gitHubIcon}
 									projectIcon={jslogo}
 									aboutThe='About the Project'
 									description={['The goal of this project was to create a webpage with JavaScript functionality and style it with Bootstrap CSS.']}
 									class={'jsContainer'}
+									technologies={
+										<ul>
+											<li>JavaScript: backend</li>
+											<li>Bootstrap: frontend</li>
+											<li>Figma: prototype</li>
+										</ul>
+									}
 									extras={
-										<Container style={{ padding: '0px' }}>
+										<Container>
 											<Col>
 												<Row className='jsContainer'>
 													<Col>
@@ -236,6 +281,7 @@ function App() {
 														></iframe>
 													</Col>
 												</Row>
+												<p></p>
 												<Row className='jsContainer'>
 													<Col>
 														<h1>Implementation</h1>
@@ -257,7 +303,6 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='React ɑ/β'
-									subtitle='CS571 Class Project'
 									link='https://github.com/CS571/react-beta-s22-allyrilling'
 									logo={gitHubIcon}
 									projectIcon={reactlogo}
@@ -266,6 +311,14 @@ function App() {
 									description={[
 										'This project is course management app. The React application pulls course data from the UW-Madison course database and loads it into the interface. State is preserved across tabs and interactions are handled using JavaScript.',
 									]}
+									technologies={
+										<ul>
+											<li>JavaScript: backend</li>
+											<li>React-Bootstrap: frontend</li>
+											<li>ReactJS</li>
+											<li>Figma: prototype</li>
+										</ul>
+									}
 									extras={
 										<Container>
 											<Row className='reactContainer'>
@@ -291,6 +344,7 @@ function App() {
 													></iframe>
 												</Col>
 											</Row>
+											<p></p>
 											<Row className='reactContainer'>
 												<Col>
 													<h1>Implementation</h1>
@@ -310,7 +364,6 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='React Native ɑ/β'
-									subtitle='CS571 Class Project'
 									link='https://github.com/CS571/react-native-alpha-s22-allyrilling'
 									logo={gitHubIcon}
 									projectIcon={rnlogo}
@@ -319,6 +372,14 @@ function App() {
 									description={[
 										'This is a fitness tracking app built with React Native. Users can log into their account and view historical workouts data. The prototype shows the intended user interface; however, time constraints restricted the amount of user interface polishing done. Users can view, add, edit, and delete workouts and view and edit their account data. ',
 									]}
+									technologies={
+										<ul>
+											<li>JavaScript: backend</li>
+											<li>React-Bootstrap: frontend</li>
+											<li>React Native</li>
+											<li>Figma: prototype</li>
+										</ul>
+									}
 									extras={
 										<Container>
 											<Row className='rnContainer'>
@@ -345,6 +406,7 @@ function App() {
 													<iframe width='800' height='450' src={rnFigmaDemo}></iframe>
 												</Col>
 											</Row>
+											<p></p>
 											<Row className='rnContainer'>
 												<Col>
 													<h1>Implementation</h1>
@@ -364,7 +426,6 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='Dialogflow'
-									subtitle='CS571 Class Project'
 									link='https://github.com/CS571/dialogflow-s22-allyrilling'
 									logo={gitHubIcon}
 									projectIcon={dialogflowlogo}
@@ -373,6 +434,12 @@ function App() {
 									description={[
 										'This project is a Dialogflow chatbot integrated into a store website. Using the chatbot, users can log into the website, ask questions about products and categories, navigate the website, and checkout. The chatbot parses natural language input and chooses the best output from pre-specified options.',
 									]}
+									technologies={
+										<ul>
+											<li>JavaScript: backend</li>
+											<li>Dialogflow: frontend</li>
+										</ul>
+									}
 									extras={
 										<Container>
 											<Row className='dfContainer'>
@@ -394,13 +461,18 @@ function App() {
 							component={() => (
 								<ProjectMaxi
 									title='High Fidelity Prototypes'
-									subtitle='CS570 Class Project'
 									projectIcon={iplogo}
 									aboutThe='About the Project'
 									class={'ipContainer'}
+									hideLinks={true}
 									description={[
 										'Both of the following prototypes are built in Figma and are interactive. The first prototype is for a new video streaming app. It was built with feedback from real users gathered in user interviews. The second is a website for an online grocery delivering service and exemplifies the user flow for ordering groceries online. ',
 									]}
+									technologies={
+										<ul>
+											<li>Figma: design and interactive prototypes</li>
+										</ul>
+									}
 									extras={
 										<Container>
 											<Row className='ipContainer'>
@@ -427,6 +499,7 @@ function App() {
 													></iframe>
 												</Col>
 											</Row>
+											<p></p>
 											<Row className='ipContainer'>
 												<Col>
 													<h1>Voodsel</h1>

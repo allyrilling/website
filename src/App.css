@@ -59,56 +59,56 @@
     border: 2px solid #1D96FA;
     padding: 10px;
     border-radius: 15px;
-    margin: 6px;
+    /* margin: 6px; */
   }
 
   .ovContainer {
       border: 2px solid #ef0000;
       padding: 10px;
       border-radius: 15px;
-      margin: 6px;
+      /* margin: 6px; */
     }
 
   .siteContainer {
     border: 2px solid #007E86;
     padding: 10px;
     border-radius: 15px;
-    margin: 6px;
+    /* margin: 6px; */
   }
 
   .jsContainer {
     border: 2px solid #F7DF1E;
     padding: 10px;
     border-radius: 15px;
-    margin: 6px;
+    /* margin: 6px; */
   }
 
   .reactContainer {
     border: 2px solid #53C1DE;
     padding: 10px;
     border-radius: 15px;
-    margin: 6px;
+    /* margin: 6px; */
   }
 
     .rnContainer {
     border: 2px solid #61DAFB;
     padding: 10px;
     border-radius: 15px;
-    margin: 6px;
+    /* margin: 6px; */
   }
 
 .dfContainer {
     border: 2px solid #EF6C00;
     padding: 10px;
     border-radius: 15px;
-    margin: 6px;
+    /* margin: 6px; */
   }
 
   .ipContainer {
     border: 2px solid #7EFFE0;
     padding: 10px;
     border-radius: 15px;
-    margin: 6px;
+    /* margin: 6px; */
   }
 
 a:link {
