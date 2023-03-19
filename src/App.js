@@ -36,6 +36,9 @@ import zip_1_0 from './files/screenshots-1.0.zip';
 import zip_1_1 from './files/screenshots-1.1.zip';
 import zip_1_2 from './files/screenshots-1.2.zip';
 import lightyeardemo from './files/lightyeardemo.mp4';
+import trackCow from './files/TrackCow.mp4';
+import snowboarding from './files/Snowboarding.mp4';
+import origamiBird from './files/OrigamiBird.mp4';
 
 function App() {
 	return (
@@ -467,7 +470,7 @@ function App() {
 									class={'ipContainer'}
 									hideLinks={true}
 									description={[
-										'Both of the following prototypes are built in Figma and are interactive. The first prototype is for a new video streaming app. It was built with feedback from real users gathered in user interviews. The second is a website for an online grocery delivering service and exemplifies the user flow for ordering groceries online. ',
+										'Both of the following prototypes are built in Figma and are interactive. The first prototype is for a new video streaming app. It was built with feedback from real users gathered in user interviews. The second is a website for an online grocery delivering service and exemplifies the user flow for ordering groceries online.',
 									]}
 									technologies={
 										<ul>
@@ -540,7 +543,9 @@ function App() {
 									aboutThe='About the Projects'
 									class={'graContainer'}
 									hideLinks={true}
-									description={['description here']}
+									description={
+										'These are project made for a computer graphics class at UW-Madison. The Track Cow is a basic first project. Snowboarding uses more advanced concepts like camera movement and 3D objects. We finished the semester learning about WebGL and shades. Origami Bird incorporates these as well as advanced camera movements and textures.'
+									}
 									technologies={
 										<ul>
 											<li>JavaScript: logic</li>
@@ -553,10 +558,9 @@ function App() {
 											<Row className='graContainer'>
 												<Col>
 													<h1>Origami Bird</h1>
-													<h4>Using WebGL and shaders</h4>
 												</Col>
 												<Col>
-													<iframe width='800px' height='500px' src={dfDemo} />
+													<iframe width='800px' height='500px' src={origamiBird} />
 												</Col>
 											</Row>
 											<p></p>
@@ -565,7 +569,7 @@ function App() {
 													<h1>Snowboarding</h1>
 												</Col>
 												<Col>
-													<iframe width='800px' height='500px' src={dfDemo} />
+													<iframe width='800px' height='500px' src={snowboarding} />
 												</Col>
 											</Row>
 											<p></p>
@@ -574,7 +578,7 @@ function App() {
 													<h1>Track Cow</h1>
 												</Col>
 												<Col>
-													<iframe width='800px' height='500px' src={dfDemo} />
+													<iframe width='800px' height='500px' src={trackCow} />
 												</Col>
 											</Row>
 										</Container>
