@@ -21,6 +21,7 @@ import rnlogo from './images/rnlogo.svg';
 import dialogflowlogo from './images/dflogo.svg';
 import lightyearicon from './images/lightyearicon.png';
 import iplogo from './images/iplogo.svg';
+import gralogo from './images/gralogo.svg';
 import appStoreIcon from './images/as.svg';
 import gitHubIcon from './images/viewongithub.svg';
 import jsImg from './images/jsimg.png';
@@ -522,6 +523,58 @@ function App() {
 														src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FU5RQwonAfPai8a1MVHrq7o%2FInterim-Presentation%3Fpage-id%3D0%253A1%26node-id%3D86%253A1728%26starting-point-node-id%3D86%253A1728'
 														allowfullscreen
 													></iframe>
+												</Col>
+											</Row>
+										</Container>
+									}
+								/>
+							)}
+						/>
+						<Route
+							path='/projects/cs559'
+							exact
+							component={() => (
+								<ProjectMaxi
+									title='Graphics Projects'
+									projectIcon={gralogo}
+									aboutThe='About the Projects'
+									class={'graContainer'}
+									hideLinks={true}
+									description={['description here']}
+									technologies={
+										<ul>
+											<li>JavaScript: logic</li>
+											<li>HTML / CSS: layout and style</li>
+											<li>WebGL: graphics framework</li>
+										</ul>
+									}
+									extras={
+										<Container>
+											<Row className='graContainer'>
+												<Col>
+													<h1>Origami Bird</h1>
+													<h4>Using WebGL and shaders</h4>
+												</Col>
+												<Col>
+													<iframe width='800px' height='500px' src={dfDemo} />
+												</Col>
+											</Row>
+											<p></p>
+											<Row className='graContainer'>
+												<Col>
+													<h1>Snowboarding</h1>
+												</Col>
+												<Col>
+													<iframe width='800px' height='500px' src={dfDemo} />
+												</Col>
+											</Row>
+											<p></p>
+											<Row className='graContainer'>
+												<Col>
+													<h1>Track Cow</h1>
+												</Col>
+												<Col>
+													<iframe width='800px' height='500px' src={dfDemo} />
 												</Col>
 											</Row>
 										</Container>

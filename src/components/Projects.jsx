@@ -10,6 +10,7 @@ import rnlogo from "../images/rnlogo.svg"
 import dialogflowlogo from "../images/dflogo.svg"
 import lightyearicon from "../images/lightyearicon.png"
 import iplogo from "../images/iplogo.svg"
+import gralogo from '../images/gralogo.svg';
 import ProjectMini from "./ProjectMini";
 
 function Projects ()
@@ -39,6 +40,7 @@ function Projects ()
           <Col className='projectMini'><a href="/projects/reactnative"><ProjectMini icon={rnlogo} name="React Native ɑ/β" description="CS571 Class Project" /></a></Col>
           <Col className='projectMini'><a href="/projects/dialogflow"> <ProjectMini icon={dialogflowlogo} name="Dialogflow" description="CS571 Class Project" /></a></Col>
           <Col className='projectMini'><a href="/projects/cs570"><ProjectMini icon={iplogo} name="High Fidelity Prototypes" description="CS570 Class Projects" /></a></Col>
+          <Col className='projectMini'><a href="/projects/cs559"><ProjectMini icon={gralogo} name="Graphics Projects" description="CS559 Class Projects" /></a></Col>
         </Row>
       </Col>
 
