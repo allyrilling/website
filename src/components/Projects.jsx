@@ -21,10 +21,10 @@ function Projects ()
       <Col>
         <Row className="headerContainer"><h1>Personal Projects</h1></Row>
         <Row className="rowContainer">
-          <Col className='projectMini'><a href="/projects/penguinworkouts" ><ProjectMini icon={icon} name="Penguin Workouts" description="iOS App" /></a></Col>
-          <Col className='projectMini'><a href="/projects/lightyear"><ProjectMini icon={lightyearicon} name="Lightyear" description="iOS App" /></a></Col>
           <Col className='projectMini'><a href="/projects/options-visualizer"><ProjectMini icon={ovLogo} name="Options Visualizer" description="Website" /></a></Col>
           <Col className='projectMini'><a href="/projects/site"><ProjectMini icon={favicon} name="This Site" description="Portfolio Website" /></a></Col>
+          <Col className='projectMini'><a href="/projects/penguinworkouts" ><ProjectMini icon={icon} name="Penguin Workouts" description="iOS App" /></a></Col>
+          <Col className='projectMini'><a href="/projects/lightyear"><ProjectMini icon={lightyearicon} name="Lightyear" description="iOS App" /></a></Col>
         </Row>
 
         {/* <Row className="headerContainer"><h1>Designs and Prototypes</h1></Row>

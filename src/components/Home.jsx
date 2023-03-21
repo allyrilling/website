@@ -36,7 +36,7 @@ export default function Home ()
                             </a>
                         </Col>
                         <Col className='iconCol'>
-                            <Mailto email='anrilling@wisc.edu' obfuscate={true} >
+                            <Mailto email='hello@allyrilling.com' obfuscate={true} >
                                 <img className='imgStyle' src={mail}></img>
                             </Mailto>
                         </Col>
