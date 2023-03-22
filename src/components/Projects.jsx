@@ -1,14 +1,14 @@
 import "../CSScomponents/AppDevelopment.css";
 import React from "react";
 import { Row, Col, Container, Nav, Navbar } from "react-bootstrap"
-import icon from "../images/penguinicon.png"
+import icon from "../images/penguinicon.svg"
 import favicon from "../images/mylogo.svg"
-import ovLogo from "../images/ovLogo.png"
+import ovLogo from "../images/ovLogo.svg"
 import jslogo from "../images/jslogo.svg"
 import reactlogo from "../images/reactlogo.svg"
 import rnlogo from "../images/rnlogo.svg"
 import dialogflowlogo from "../images/dflogo.svg"
-import lightyearicon from "../images/lightyearicon.png"
+import lightyearicon from "../images/lightyearicon.svg"
 import iplogo from "../images/iplogo.svg"
 import gralogo from '../images/gralogo.svg';
 import ProjectMini from "./ProjectMini";
