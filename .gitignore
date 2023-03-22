@@ -3,3 +3,5 @@ build
 .firebase
 # Local Netlify folder
 .netlify
+
+.vscode
