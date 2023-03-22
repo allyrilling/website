@@ -560,7 +560,7 @@ function App() {
 													<h1>Origami Bird</h1>
 												</Col>
 												<Col>
-													<video width='800px' height='500px' src={origamiBird} />
+													<iframe width='800px' height='500px' src={origamiBird} />
 												</Col>
 											</Row>
 											<p></p>
@@ -569,7 +569,7 @@ function App() {
 													<h1>Snowboarding</h1>
 												</Col>
 												<Col>
-													<video width='800px' height='500px' src={snowboarding} />
+													<iframe width='800px' height='500px' src={snowboarding} />
 												</Col>
 											</Row>
 											<p></p>
@@ -578,7 +578,7 @@ function App() {
 													<h1>Track Cow</h1>
 												</Col>
 												<Col>
-													<video width='800px' height='500px' src={trackCow} />
+													<iframe width='800px' height='500px' src={trackCow} />
 												</Col>
 											</Row>
 										</Container>
